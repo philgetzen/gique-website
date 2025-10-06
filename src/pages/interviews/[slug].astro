@@ -5,7 +5,7 @@ import { getCollection } from 'astro:content';
 export async function getStaticPaths() {
   const interviews = await getCollection('interviews');
   return interviews.map(interview => ({
-    params: { slug: interview.data.slug },
+    params: { slug: interview.slug },
     props: { interview },
   }));
 }

@@ -41,12 +41,12 @@ const descriptions: Record<string, string> = {
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
       {interviews.map(interview => (
-        <a href={`/interviews/${interview.data.slug}`}
+        <a href={`/interviews/${interview.slug}`}
            class="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-xl transition-all group">
-          {profileImages[interview.data.slug] && (
+          {profileImages[interview.slug] && (
             <div class="aspect-square overflow-hidden bg-gray-100">
               <img
-                src={profileImages[interview.data.slug]}
+                src={profileImages[interview.slug]}
                 alt={interview.data.title}
                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
               />
@@ -56,8 +56,8 @@ const descriptions: Record<string, string> = {
             <h3 class="text-xl font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
               {interview.data.title}
             </h3>
-            {descriptions[interview.data.slug] && (
-              <p class="text-gray-600 mb-3">{descriptions[interview.data.slug]}</p>
+            {descriptions[interview.slug] && (
+              <p class="text-gray-600 mb-3">{descriptions[interview.slug]}</p>
             )}
             <p class="text-blue-600 font-medium group-hover:text-blue-700">
               Read interview →
