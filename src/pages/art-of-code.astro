@@ -1,8 +1,13 @@
 ---
 import Layout from '../components/Layout.astro';
+import { getEntry } from 'astro:content';
+
+const entry = await getEntry('programs', 'art-of-code');
+const { Content } = await entry.render();
 ---
 
 <Layout title="Art of Code - Gique">
-  <h1>Art of Code</h1>
-    <p>Creative coding and digital art education.</p>
+  <article class="prose prose-lg max-w-none">
+    <Content />
+  </article>
 </Layout>

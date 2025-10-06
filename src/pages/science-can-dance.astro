@@ -1,8 +1,13 @@
 ---
 import Layout from '../components/Layout.astro';
+import { getEntry } from 'astro:content';
+
+const entry = await getEntry('programs', 'science-can-dance');
+const { Content } = await entry.render();
 ---
 
 <Layout title="Science Can Dance! - Gique">
-  <h1>Science Can Dance!</h1>
-    <p>Integrating science and dance education.</p>
+  <article class="prose prose-lg max-w-none">
+    <Content />
+  </article>
 </Layout>

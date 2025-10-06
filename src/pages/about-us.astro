@@ -1,8 +1,13 @@
 ---
 import Layout from '../components/Layout.astro';
+import { getEntry } from 'astro:content';
+
+const entry = await getEntry('pages', 'about-us');
+const { Content } = await entry.render();
 ---
 
 <Layout title="About Us - Gique">
-  <h1>About Us</h1>
-    <p>Gique is a Boston-based nonprofit 501(c)(3) organization which exists to inspire and educate youth in STEAM.</p>
+  <article class="prose prose-lg max-w-none">
+    <Content />
+  </article>
 </Layout>

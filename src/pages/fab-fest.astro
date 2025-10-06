@@ -1,8 +1,13 @@
 ---
 import Layout from '../components/Layout.astro';
+import { getEntry } from 'astro:content';
+
+const entry = await getEntry('programs', 'fab-fest');
+const { Content } = await entry.render();
 ---
 
 <Layout title="Fab Festival - Gique">
-  <h1>Fab Festival</h1>
-    <p>Celebrating fabrication and making.</p>
+  <article class="prose prose-lg max-w-none">
+    <Content />
+  </article>
 </Layout>
