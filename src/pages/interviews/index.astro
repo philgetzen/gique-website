@@ -1,5 +1,28 @@
 ---
 import Layout from '../../components/Layout.astro';
+import { getCollection } from 'astro:content';
+
+const interviews = await getCollection('interviews');
+
+// Map of profile images for each interview (using local images)
+const profileImages: Record<string, string> = {
+  'niharika-vattikonda': '/images/interviews/interview-23.jpg',
+  'sara-molcan': '/images/interviews/interview-25.jpg',
+  'shantell-martin': '/images/interviews/interview-18.jpg',
+  'suelin-chen': '/images/interviews/interview-15.jpg',
+  'zach-lanoue': '/images/interviews/interview-1.jpg',
+};
+
+// Map of descriptions for each interview
+const descriptions: Record<string, string> = {
+  'niharika-vattikonda': 'Eight-year-old coder who started a CS education nonprofit in high school',
+  'sara-molcan': 'Painter whose work is informed by neuroscience of memory preservation',
+  'suelin-chen': 'Entrepreneur repositioning death in our culture using technology',
+  'shantell-martin': 'NYC\'s "coolest it girl" transforming circuit boards into art storyboards',
+  'owen-beane': 'Professional piercer at the intersection of precision art and healing biology',
+  'zach-lanoue': 'Pushing the envelope of experience through technology and athletics',
+  'megan-cox': 'MIT \'14, Founder & CEO of Wink All Natural Cosmetics',
+};
 ---
 
 <Layout title="Interviews - Gique">
@@ -17,47 +40,31 @@ import Layout from '../../components/Layout.astro';
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
-      <div class="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
-        <h3 class="text-xl font-semibold text-gray-900 mb-2">Niharika Vattikonda</h3>
-        <p class="text-gray-600 mb-3">Eight-year-old coder who started a CS education nonprofit in high school</p>
-        <p class="text-sm text-gray-500 italic">Interview archived</p>
-      </div>
-
-      <div class="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
-        <h3 class="text-xl font-semibold text-gray-900 mb-2">Sara Molcan</h3>
-        <p class="text-gray-600 mb-3">Painter whose work is informed by neuroscience of memory preservation</p>
-        <p class="text-sm text-gray-500 italic">Interview archived</p>
-      </div>
-
-      <div class="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
-        <h3 class="text-xl font-semibold text-gray-900 mb-2">Suelin Chen</h3>
-        <p class="text-gray-600 mb-3">Entrepreneur repositioning death in our culture using technology</p>
-        <p class="text-sm text-gray-500 italic">Interview archived</p>
-      </div>
-
-      <div class="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
-        <h3 class="text-xl font-semibold text-gray-900 mb-2">Shantell Martin</h3>
-        <p class="text-gray-600 mb-3">NYC's "coolest it girl" transforming circuit boards into art storyboards</p>
-        <p class="text-sm text-gray-500 italic">Interview archived</p>
-      </div>
-
-      <div class="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
-        <h3 class="text-xl font-semibold text-gray-900 mb-2">Owen Beane</h3>
-        <p class="text-gray-600 mb-3">Professional piercer at the intersection of precision art and healing biology</p>
-        <p class="text-sm text-gray-500 italic">Interview archived</p>
-      </div>
-
-      <div class="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
-        <h3 class="text-xl font-semibold text-gray-900 mb-2">Zach Lanoue</h3>
-        <p class="text-gray-600 mb-3">Pushing the envelope of experience through technology and athletics</p>
-        <p class="text-sm text-gray-500 italic">Interview archived</p>
-      </div>
-
-      <div class="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
-        <h3 class="text-xl font-semibold text-gray-900 mb-2">Megan Cox</h3>
-        <p class="text-gray-600 mb-3">Founder & CEO of Wink All Natural Cosmetics</p>
-        <p class="text-sm text-gray-500 italic">Interview archived</p>
-      </div>
+      {interviews.map(interview => (
+        <a href={`/interviews/${interview.data.slug}`}
+           class="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-xl transition-all group">
+          {profileImages[interview.data.slug] && (
+            <div class="aspect-square overflow-hidden bg-gray-100">
+              <img
+                src={profileImages[interview.data.slug]}
+                alt={interview.data.title}
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+          )}
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+              {interview.data.title}
+            </h3>
+            {descriptions[interview.data.slug] && (
+              <p class="text-gray-600 mb-3">{descriptions[interview.data.slug]}</p>
+            )}
+            <p class="text-blue-600 font-medium group-hover:text-blue-700">
+              Read interview →
+            </p>
+          </div>
+        </a>
+      ))}
     </div>
 
     <div class="bg-blue-50 rounded-lg p-8 text-center">

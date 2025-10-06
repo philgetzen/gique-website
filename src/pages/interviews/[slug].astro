@@ -1,0 +1,65 @@
+---
+import Layout from '../../components/Layout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const interviews = await getCollection('interviews');
+  return interviews.map(interview => ({
+    params: { slug: interview.data.slug },
+    props: { interview },
+  }));
+}
+
+const { interview } = Astro.props;
+const { Content } = await interview.render();
+---
+
+<Layout title={`${interview.data.title} - Gique Interview`}>
+  <div class="max-w-4xl mx-auto">
+    <div class="mb-8">
+      <a href="/interviews" class="text-blue-600 hover:text-blue-700 font-medium">
+        ← Back to Interviews
+      </a>
+    </div>
+
+    <article class="prose prose-lg prose-headings:text-gray-900 prose-a:text-blue-600 prose-img:rounded-lg prose-img:shadow-md max-w-none">
+      <style>
+        /* Style images in interview content */
+        article img {
+          max-width: 600px;
+          height: auto;
+          margin: 2rem auto;
+          display: block;
+        }
+
+        /* Profile images at the top should be larger and centered */
+        article h1 + p > img,
+        article h1 + img {
+          max-width: 400px;
+          border-radius: 0.5rem;
+        }
+
+        /* Quote blocks */
+        article blockquote {
+          border-left: 4px solid #3b82f6;
+          padding-left: 1.5rem;
+          font-style: italic;
+          color: #4b5563;
+        }
+
+        /* Embedded video containers */
+        article .intrinsic {
+          margin: 2rem 0;
+        }
+      </style>
+
+      <Content />
+    </article>
+
+    <div class="mt-12 pt-8 border-t border-gray-200">
+      <a href="/interviews" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-lg transition-colors">
+        ← Back to all interviews
+      </a>
+    </div>
+  </div>
+</Layout>

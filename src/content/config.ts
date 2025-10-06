@@ -20,7 +20,18 @@ const programs = defineCollection({
   }),
 });
 
+const interviews = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    slug: z.string(),
+    date: z.string(),
+    author: z.string(),
+  }),
+});
+
 export const collections = {
   pages,
   programs,
+  interviews,
 };

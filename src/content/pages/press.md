@@ -1,0 +1,14 @@
+---
+title: "In The News"
+slug: "press"
+date: "2017-09-15"
+author: "Unknown"
+---
+
+# In The News
+
+Check out what people are saying about Gique!
+
+* * *
+
+[![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1455914567574-QO58272B18OJMZIOIRLR/image-asset.jpeg?format=original)](http://cs.astronomy.com/asy/b/daves-universe/archive/2015/06/01/greetings-from-the-world-science-festival-star-party.aspx) [![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1489640272054-RE1G56BVB611WZ86F578/PBS+NOVA?format=original)](http://www.pbs.org/wgbh/nova/body/dancing-to-learn.html) [![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1505503622391-XRLA7BL2B4CCPO1UBTTD/stem-connector.jpg?format=original)](http://www.stemconnector.com/meet-danielle-olson-gique-advancing-case-steam-education/) [![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1456942456385-A1A7Q2LJ7XVDZCRC63NI/image-asset.png?format=original)](http://blog.microsoftnewengland.com/2016/02/29/voices-of-change-diversity-in-stem-can-change-the-world/) [![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1462549089584-9MDPFWSE2MLOZCA7BWQC/image-asset.jpeg?format=original)](http://newbostonpost.com/2016/04/27/ideas-unleashed-by-dorchester-hackathon-for-kids/) [![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1455912897822-ZO1G7J5JMM797FN7WPXH/image-asset.jpeg?format=original)](http://slice.mit.edu/2016/02/19/gique-blends-arts-and-sciences-afterschool/) [![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1455913234446-0O8WP6EJ10VJJYSDNS7J/image-asset.jpeg?format=original)](http://baystatebanner.com/news/2015/jul/29/blending-arts-and-science/) [![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1455914550288-OJHOTD40XLFN1HXJLEKA/image-asset.png?format=original)](http://www.sciencecheerleader.com/2015/06/science-cheerleaders-visit-the-world-science-festival/) [![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1455912853081-XJ5Q3HS5JV3BP6Z671R4/image-asset.png?format=original)](http://arts.mit.edu/gique/) [![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1501646561694-TK0XOM0ICE8YL2VE7PRP/image-asset.jpeg?format=original)](http://www.sciartmagazine.com/growing-youth-curiosity-and-self-confidence-in-steam-with-gique.html) [![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1455912934914-QW5SFY3E3MUO5SXZIOF5/image-asset.jpeg?format=original)](http://50.56.238.19/boston-beer-brewing/2014/07/this-friday-beer-geekery-in-the-seaport/) [![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1455913110416-9HZNTTTYH0EBO48OAF0K/image-asset.jpeg?format=original)](http://www.bostonglow.org/organized_woman_spotlight_danielle_olson_founder_of_gique)
