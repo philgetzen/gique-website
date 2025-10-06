@@ -3,6 +3,49 @@ import Layout from '../../components/Layout.astro';
 ---
 
 <Layout title="Interviews - Gique">
-  <h1>Interviews</h1>
-      <p>Conversations with STEAM professionals and educators.</p>
+  <div class="max-w-4xl mx-auto">
+    <h1 class="text-4xl font-bold text-gray-900 mb-6">Interview Series</h1>
+    <p class="text-xl text-gray-700 mb-12">
+      Gique's interview series highlights inspiring conversations with STEAM professionals, educators, and innovators who are making a difference in their fields.
+    </p>
+
+    <div class="bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-8 mb-12">
+      <h2 class="text-2xl font-semibold text-gray-900 mb-4">Coming Soon</h2>
+      <p class="text-gray-700 mb-6">
+        We're currently developing our interview series featuring conversations with scientists, artists, engineers, and educators who embody the STEAM spirit. These interviews will explore their journeys, insights, and advice for the next generation of innovators.
+      </p>
+      <p class="text-gray-700">
+        Topics will include:
+      </p>
+      <ul class="list-disc list-inside text-gray-700 mt-4 space-y-2">
+        <li>Career paths in STEAM fields</li>
+        <li>Interdisciplinary collaboration between art and science</li>
+        <li>Innovative approaches to education and learning</li>
+        <li>Breaking barriers and creating inclusive STEAM communities</li>
+        <li>The future of technology and creative expression</li>
+      </ul>
+    </div>
+
+    <div class="bg-white border border-gray-200 rounded-lg p-8 text-center">
+      <h3 class="text-2xl font-semibold text-gray-900 mb-4">Suggest an Interviewee</h3>
+      <p class="text-gray-700 mb-6">
+        Know someone who would be perfect for our interview series? We'd love to hear from you!
+      </p>
+      <a href="mailto:hello@gique.me"
+         class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-lg transition-colors">
+        Send us your suggestion
+      </a>
+    </div>
+
+    <div class="mt-12 text-center">
+      <p class="text-gray-600 mb-4">
+        While we prepare our interview series, explore our active programs:
+      </p>
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="/science-can-dance" class="text-blue-600 hover:text-blue-700 font-medium">Science Can Dance!</a>
+        <a href="/after-school-programs" class="text-blue-600 hover:text-blue-700 font-medium">After-School Programs</a>
+        <a href="/art-science-of-beer" class="text-blue-600 hover:text-blue-700 font-medium">Art & Science of Beer</a>
+      </div>
+    </div>
+  </div>
 </Layout>

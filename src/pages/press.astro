@@ -3,6 +3,61 @@ import Layout from '../components/Layout.astro';
 ---
 
 <Layout title="In the News - Gique">
-  <h1>In the News</h1>
-    <p>Press coverage and media mentions.</p>
+  <div class="max-w-4xl mx-auto">
+    <h1 class="text-4xl font-bold text-gray-900 mb-6">In the News</h1>
+    <p class="text-xl text-gray-700 mb-12">
+      Gique has been featured in various media outlets highlighting our innovative approach to STEAM education and community engagement.
+    </p>
+
+    <div class="space-y-8">
+      <div class="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
+        <h2 class="text-2xl font-semibold text-gray-900 mb-3">Cambridge Science Festival</h2>
+        <p class="text-gray-600 mb-4">
+          Gique has been a regular participant at the Cambridge Science Festival since 2014, bringing interactive STEAM activities to families across the Boston area through our Typography Booth and other engaging programs.
+        </p>
+        <a href="http://www.cambridgesciencefestival.org/"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="text-blue-600 hover:text-blue-700 font-medium">
+          Learn more about Cambridge Science Festival →
+        </a>
+      </div>
+
+      <div class="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
+        <h2 class="text-2xl font-semibold text-gray-900 mb-3">General Assembly Partnership</h2>
+        <p class="text-gray-600 mb-4">
+          In 2014, Gique partnered with General Assembly to host "The Art of Code" event, introducing participants to web development through the lens of design and creativity. The event featured Nathan Bashaw, creator of Dash.
+        </p>
+        <a href="https://generalassemb.ly"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="text-blue-600 hover:text-blue-700 font-medium">
+          Visit General Assembly →
+        </a>
+      </div>
+
+      <div class="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
+        <h2 class="text-2xl font-semibold text-gray-900 mb-3">Media Inquiries</h2>
+        <p class="text-gray-600 mb-4">
+          For press inquiries, interview requests, or media coverage opportunities, please contact us directly.
+        </p>
+        <a href="mailto:hello@gique.me"
+           class="text-blue-600 hover:text-blue-700 font-medium">
+          hello@gique.me →
+        </a>
+      </div>
+
+      <div class="bg-blue-50 rounded-lg p-8 text-center">
+        <h2 class="text-2xl font-semibold text-gray-900 mb-4">Share Our Story</h2>
+        <p class="text-gray-700 mb-6">
+          Help us spread the word about Gique's mission to make STEAM education accessible and engaging for all.
+        </p>
+        <div class="flex justify-center gap-4">
+          <a href="/social" class="text-blue-600 hover:text-blue-700 font-medium">
+            Follow us on social media →
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
 </Layout>
