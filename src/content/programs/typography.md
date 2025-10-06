@@ -19,6 +19,3 @@ Fonts may seem like nothing more than the clothes that words wear, but they actu
 
 We've had a great time at the 2014 — 2016 [Cambridge Science Festivals](http://www.cambridgesciencefestival.org/) teaching families about the art & science of typography! Check out the Facebook albums from our appearance at the [2014](https://www.facebook.com/media/set/?set=a.469431739855065.1073741828.389326787865561&type=3) and [2015](https://www.facebook.com/media/set/?set=a.649888295142741.1073741839.389326787865561&type=3) CSF Science Carnivals & Robot Zoos below.
 
-(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)\[0\]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en\_US/sdk.js#xfbml=1&version=v2.3"; fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));
-
-> (function(d, s, id) { var js, fjs = d.getElementsByTagName(s)\[0\]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en\_US/all.js#xfbml=1"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));
