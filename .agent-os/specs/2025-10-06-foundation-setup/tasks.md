@@ -60,22 +60,22 @@ These are the tasks to be completed for the spec detailed in @.agent-os/specs/20
   - [x] 5.6 Review images manually for quality
   - [x] 5.7 Commit images and manifest to version control
 
-- [ ] 6. Create site structure with all page routes
-  - [ ] 6.1 Create `src/pages/index.astro` (homepage)
-  - [ ] 6.2 Create `src/pages/about-us.astro`
-  - [ ] 6.3 Create `src/pages/steam-resources.astro`
-  - [ ] 6.4 Create `src/pages/science-can-dance.astro`
-  - [ ] 6.5 Create `src/pages/after-school-programs.astro`
-  - [ ] 6.6 Create `src/pages/art-science-of-beer.astro`
-  - [ ] 6.7 Create `src/pages/fab-fest.astro`
-  - [ ] 6.8 Create `src/pages/art-of-code.astro`
-  - [ ] 6.9 Create `src/pages/typography.astro`
-  - [ ] 6.10 Create `src/pages/interviews/index.astro`
-  - [ ] 6.11 Create `src/pages/press.astro`
-  - [ ] 6.12 Create `src/pages/contact.astro`
-  - [ ] 6.13 Create `src/pages/social.astro`
-  - [ ] 6.14 Add placeholder content to each page
-  - [ ] 6.15 Verify all routes accessible locally
+- [x] 6. Create site structure with all page routes
+  - [x] 6.1 Create `src/pages/index.astro` (homepage)
+  - [x] 6.2 Create `src/pages/about-us.astro`
+  - [x] 6.3 Create `src/pages/steam-resources.astro`
+  - [x] 6.4 Create `src/pages/science-can-dance.astro`
+  - [x] 6.5 Create `src/pages/after-school-programs.astro`
+  - [x] 6.6 Create `src/pages/art-science-of-beer.astro`
+  - [x] 6.7 Create `src/pages/fab-fest.astro`
+  - [x] 6.8 Create `src/pages/art-of-code.astro`
+  - [x] 6.9 Create `src/pages/typography.astro`
+  - [x] 6.10 Create `src/pages/interviews/index.astro`
+  - [x] 6.11 Create `src/pages/press.astro`
+  - [x] 6.12 Create `src/pages/contact.astro`
+  - [x] 6.13 Create `src/pages/social.astro`
+  - [x] 6.14 Add placeholder content to each page
+  - [x] 6.15 Verify all routes accessible locally
 
 - [ ] 7. Create responsive navigation component
   - [ ] 7.1 Create `src/components/Navigation.astro`
