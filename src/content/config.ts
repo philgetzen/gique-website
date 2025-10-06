@@ -4,7 +4,7 @@ const pages = defineCollection({
   type: 'content',
   schema: z.object({
     title: z.string(),
-    slug: z.string(),
+    slug: z.string().optional(),
     date: z.string(),
     author: z.string(),
   }),
@@ -14,17 +14,7 @@ const programs = defineCollection({
   type: 'content',
   schema: z.object({
     title: z.string(),
-    slug: z.string(),
-    date: z.string(),
-    author: z.string(),
-  }),
-});
-
-const interviews = defineCollection({
-  type: 'content',
-  schema: z.object({
-    title: z.string(),
-    slug: z.string(),
+    slug: z.string().optional(),
     date: z.string(),
     author: z.string(),
   }),
@@ -33,5 +23,4 @@ const interviews = defineCollection({
 export const collections = {
   pages,
   programs,
-  interviews,
 };

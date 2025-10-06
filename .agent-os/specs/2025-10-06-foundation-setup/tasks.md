@@ -101,14 +101,14 @@ These are the tasks to be completed for the spec detailed in @.agent-os/specs/20
   - [x] 8.9 Ensure homepage is fully responsive
   - [x] 8.10 Test homepage rendering locally
 
-- [ ] 9. Set up GitHub repository
-  - [ ] 9.1 Initialize Git repository (`git init`)
-  - [ ] 9.2 Create `.gitignore` file (node_modules, dist, .env, .DS_Store)
-  - [ ] 9.3 Create GitHub repository (public or private)
-  - [ ] 9.4 Add remote origin
-  - [ ] 9.5 Create initial commit with all Phase 1 work
-  - [ ] 9.6 Push to GitHub main branch
-  - [ ] 9.7 Verify repository contents on GitHub
+- [x] 9. Set up GitHub repository
+  - [x] 9.1 Initialize Git repository (`git init`)
+  - [x] 9.2 Create `.gitignore` file (node_modules, dist, .env, .DS_Store)
+  - [x] 9.3 Create GitHub repository (public or private)
+  - [x] 9.4 Add remote origin
+  - [x] 9.5 Create initial commit with all Phase 1 work
+  - [x] 9.6 Push to GitHub main branch
+  - [x] 9.7 Verify repository contents on GitHub
 
 - [ ] 10. Connect Cloudflare Pages and deploy
   - [ ] 10.1 Log into Cloudflare account
