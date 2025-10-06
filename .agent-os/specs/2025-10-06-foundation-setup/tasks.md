@@ -17,27 +17,27 @@ These are the tasks to be completed for the spec detailed in @.agent-os/specs/20
   - [x] 1.7 Test local development server starts successfully (`npm run dev`)
   - [x] 1.8 Verify build process works (`npm run build`)
 
-- [ ] 2. Create WordPress XML content parsing script
-  - [ ] 2.1 Create `scripts/parse-wordpress-xml.js` file
-  - [ ] 2.2 Implement XML file reading and parsing
-  - [ ] 2.3 Implement item extraction from XML structure
-  - [ ] 2.4 Install and configure `turndown` for HTML to Markdown conversion
-  - [ ] 2.5 Implement frontmatter generation from WordPress metadata
-  - [ ] 2.6 Implement slug generation from WordPress links
-  - [ ] 2.7 Create output directory structure for different content types
-  - [ ] 2.8 Implement file writing with proper encoding
-  - [ ] 2.9 Add error handling and logging
-  - [ ] 2.10 Test script with WordPress XML export file
-  - [ ] 2.11 Verify all Markdown files generated correctly
+- [x] 2. Create WordPress XML content parsing script
+  - [x] 2.1 Create `scripts/parse-wordpress-xml.js` file
+  - [x] 2.2 Implement XML file reading and parsing
+  - [x] 2.3 Implement item extraction from XML structure
+  - [x] 2.4 Install and configure `turndown` for HTML to Markdown conversion
+  - [x] 2.5 Implement frontmatter generation from WordPress metadata
+  - [x] 2.6 Implement slug generation from WordPress links
+  - [x] 2.7 Create output directory structure for different content types
+  - [x] 2.8 Implement file writing with proper encoding
+  - [x] 2.9 Add error handling and logging
+  - [x] 2.10 Test script with WordPress XML export file
+  - [x] 2.11 Verify all Markdown files generated correctly
 
-- [ ] 3. Extract and organize content from WordPress XML
-  - [ ] 3.1 Run parsing script on `/Users/philgetzen/Downloads/Squarespace Wordpress Export Oct 6 2025.xml`
-  - [ ] 3.2 Review generated Markdown files for accuracy
-  - [ ] 3.3 Organize files into appropriate directories (pages, programs, interviews)
-  - [ ] 3.4 Verify frontmatter contains all necessary fields
-  - [ ] 3.5 Check for any parsing errors or malformed content
-  - [ ] 3.6 Create content inventory document listing all extracted pages
-  - [ ] 3.7 Commit organized content to version control
+- [x] 3. Extract and organize content from WordPress XML
+  - [x] 3.1 Run parsing script on `/Users/philgetzen/Downloads/Squarespace Wordpress Export Oct 6 2025.xml`
+  - [x] 3.2 Review generated Markdown files for accuracy
+  - [x] 3.3 Organize files into appropriate directories (pages, programs, interviews)
+  - [x] 3.4 Verify frontmatter contains all necessary fields
+  - [x] 3.5 Check for any parsing errors or malformed content
+  - [x] 3.6 Create content inventory document listing all extracted pages
+  - [x] 3.7 Commit organized content to version control
 
 - [ ] 4. Create image download and optimization script
   - [ ] 4.1 Create `scripts/download-images.js` file
