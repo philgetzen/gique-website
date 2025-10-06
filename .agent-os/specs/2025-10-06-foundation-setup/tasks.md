@@ -77,29 +77,29 @@ These are the tasks to be completed for the spec detailed in @.agent-os/specs/20
   - [x] 6.14 Add placeholder content to each page
   - [x] 6.15 Verify all routes accessible locally
 
-- [ ] 7. Create responsive navigation component
-  - [ ] 7.1 Create `src/components/Navigation.astro`
-  - [ ] 7.2 Implement navigation links array with all main sections
-  - [ ] 7.3 Style desktop navigation (horizontal layout)
-  - [ ] 7.4 Implement mobile hamburger menu with Tailwind
-  - [ ] 7.5 Add JavaScript for mobile menu toggle
-  - [ ] 7.6 Implement active page highlighting
-  - [ ] 7.7 Add ARIA attributes for accessibility
-  - [ ] 7.8 Test responsive breakpoints (mobile, tablet, desktop)
-  - [ ] 7.9 Test keyboard navigation
-  - [ ] 7.10 Verify navigation works on all pages
+- [x] 7. Create responsive navigation component
+  - [x] 7.1 Create `src/components/Navigation.astro`
+  - [x] 7.2 Implement navigation links array with all main sections
+  - [x] 7.3 Style desktop navigation (horizontal layout)
+  - [x] 7.4 Implement mobile hamburger menu with Tailwind
+  - [x] 7.5 Add JavaScript for mobile menu toggle
+  - [x] 7.6 Implement active page highlighting
+  - [x] 7.7 Add ARIA attributes for accessibility
+  - [x] 7.8 Test responsive breakpoints (mobile, tablet, desktop)
+  - [x] 7.9 Test keyboard navigation
+  - [x] 7.10 Verify navigation works on all pages
 
-- [ ] 8. Create base layout and homepage
-  - [ ] 8.1 Create `src/components/Layout.astro` with common structure
-  - [ ] 8.2 Implement head section with meta tags
-  - [ ] 8.3 Include Navigation component in layout
-  - [ ] 8.4 Create `src/components/Footer.astro` with social media placeholders
-  - [ ] 8.5 Design homepage hero section with mission statement
-  - [ ] 8.6 Add Gique branding/logo to homepage
-  - [ ] 8.7 Add brief description from existing site
-  - [ ] 8.8 Style homepage with Tailwind CSS
-  - [ ] 8.9 Ensure homepage is fully responsive
-  - [ ] 8.10 Test homepage rendering locally
+- [x] 8. Create base layout and homepage
+  - [x] 8.1 Create `src/components/Layout.astro` with common structure
+  - [x] 8.2 Implement head section with meta tags
+  - [x] 8.3 Include Navigation component in layout
+  - [x] 8.4 Create `src/components/Footer.astro` with social media placeholders
+  - [x] 8.5 Design homepage hero section with mission statement
+  - [x] 8.6 Add Gique branding/logo to homepage
+  - [x] 8.7 Add brief description from existing site
+  - [x] 8.8 Style homepage with Tailwind CSS
+  - [x] 8.9 Ensure homepage is fully responsive
+  - [x] 8.10 Test homepage rendering locally
 
 - [ ] 9. Set up GitHub repository
   - [ ] 9.1 Initialize Git repository (`git init`)

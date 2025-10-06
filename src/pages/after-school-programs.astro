@@ -1,4 +1,5 @@
 ---
+import Navigation from '../components/Navigation.astro';
 // After-School Programs page
 const title = "After-School Programs - Gique";
 ---
@@ -11,7 +12,10 @@ const title = "After-School Programs - Gique";
     <title>{title}</title>
   </head>
   <body>
-    <h1>After-School Programs</h1>
+    <Navigation />
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <h1>After-School Programs</h1>
     <p>Engaging STEAM programs for youth after school.</p>
+    </main>
   </body>
 </html>

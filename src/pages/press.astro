@@ -1,4 +1,5 @@
 ---
+import Navigation from '../components/Navigation.astro';
 // In the News / Press page
 const title = "In the News - Gique";
 ---
@@ -11,7 +12,10 @@ const title = "In the News - Gique";
     <title>{title}</title>
   </head>
   <body>
-    <h1>In the News</h1>
+    <Navigation />
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <h1>In the News</h1>
     <p>Press coverage and media mentions.</p>
+    </main>
   </body>
 </html>

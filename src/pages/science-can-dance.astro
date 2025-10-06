@@ -1,4 +1,5 @@
 ---
+import Navigation from '../components/Navigation.astro';
 // Science Can Dance! program page
 const title = "Science Can Dance! - Gique";
 ---
@@ -11,7 +12,10 @@ const title = "Science Can Dance! - Gique";
     <title>{title}</title>
   </head>
   <body>
-    <h1>Science Can Dance!</h1>
+    <Navigation />
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <h1>Science Can Dance!</h1>
     <p>Integrating science and dance education.</p>
+    </main>
   </body>
 </html>

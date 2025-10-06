@@ -1,0 +1,225 @@
+---
+// Navigation component with responsive mobile menu
+interface NavLink {
+  label: string;
+  href: string;
+}
+
+const navLinks: NavLink[] = [
+  { label: 'Home', href: '/' },
+  { label: 'About', href: '/about-us' },
+  { label: 'STEAM Resources', href: '/steam-resources' },
+  { label: 'Programs', href: '#programs' },
+  { label: 'Interviews', href: '/interviews' },
+  { label: 'Press', href: '/press' },
+  { label: 'Contact', href: '/contact' },
+];
+
+const programLinks: NavLink[] = [
+  { label: 'Science Can Dance!', href: '/science-can-dance' },
+  { label: 'After-School Programs', href: '/after-school-programs' },
+  { label: 'Art & Science of Beer', href: '/art-science-of-beer' },
+  { label: 'Fab Festival', href: '/fab-fest' },
+  { label: 'Art of Code', href: '/art-of-code' },
+  { label: 'Typography', href: '/typography' },
+];
+
+// Get current path for active link highlighting
+const currentPath = Astro.url.pathname;
+---
+
+<nav class="bg-white shadow-md sticky top-0 z-50" role="navigation" aria-label="Main navigation">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between items-center h-16">
+      <!-- Logo/Brand -->
+      <div class="flex-shrink-0">
+        <a href="/" class="text-2xl font-bold text-gray-900 hover:text-blue-600 transition-colors">
+          Gique
+        </a>
+      </div>
+
+      <!-- Desktop Navigation -->
+      <div class="hidden md:flex md:items-center md:space-x-8">
+        {navLinks.map((link) => (
+          link.label === 'Programs' ? (
+            <div class="relative group">
+              <button
+                class="text-gray-700 hover:text-blue-600 transition-colors font-medium focus:outline-none focus:text-blue-600"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Programs
+                <svg class="inline-block w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+              </button>
+              <!-- Dropdown Menu -->
+              <div class="absolute left-0 mt-2 w-64 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 border border-gray-200">
+                <div class="py-2">
+                  {programLinks.map((program) => (
+                    <a
+                      href={program.href}
+                      class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors"
+                    >
+                      {program.label}
+                    </a>
+                  ))}
+                </div>
+              </div>
+            </div>
+          ) : (
+            <a
+              href={link.href}
+              class:list={[
+                'text-gray-700 hover:text-blue-600 transition-colors font-medium',
+                currentPath === link.href && 'text-blue-600 font-semibold'
+              ]}
+              aria-current={currentPath === link.href ? 'page' : undefined}
+            >
+              {link.label}
+            </a>
+          )
+        ))}
+        <a
+          href="/social"
+          class="text-gray-700 hover:text-blue-600 transition-colors"
+          aria-label="Social Media"
+        >
+          <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+          </svg>
+        </a>
+      </div>
+
+      <!-- Mobile menu button -->
+      <div class="md:hidden">
+        <button
+          id="mobile-menu-button"
+          type="button"
+          class="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-blue-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500 transition-colors"
+          aria-controls="mobile-menu"
+          aria-expanded="false"
+          aria-label="Toggle navigation menu"
+        >
+          <svg class="block h-6 w-6" id="menu-icon-open" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+          <svg class="hidden h-6 w-6" id="menu-icon-close" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile menu -->
+  <div class="md:hidden hidden" id="mobile-menu">
+    <div class="px-2 pt-2 pb-3 space-y-1 bg-white border-t border-gray-200">
+      {navLinks.map((link) => (
+        link.label === 'Programs' ? (
+          <>
+            <button
+              id="mobile-programs-button"
+              class="w-full text-left px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-100 transition-colors flex justify-between items-center"
+              aria-expanded="false"
+            >
+              Programs
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+              </svg>
+            </button>
+            <div id="mobile-programs-submenu" class="hidden pl-4 space-y-1">
+              {programLinks.map((program) => (
+                <a
+                  href={program.href}
+                  class="block px-3 py-2 rounded-md text-sm text-gray-600 hover:text-blue-600 hover:bg-gray-50 transition-colors"
+                >
+                  {program.label}
+                </a>
+              ))}
+            </div>
+          </>
+        ) : (
+          <a
+            href={link.href}
+            class:list={[
+              'block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-100 transition-colors',
+              currentPath === link.href && 'text-blue-600 bg-blue-50'
+            ]}
+            aria-current={currentPath === link.href ? 'page' : undefined}
+          >
+            {link.label}
+          </a>
+        )
+      ))}
+      <a
+        href="/social"
+        class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-100 transition-colors"
+      >
+        Social Media
+      </a>
+    </div>
+  </div>
+</nav>
+
+<script>
+  // Mobile menu toggle
+  const mobileMenuButton = document.getElementById('mobile-menu-button');
+  const mobileMenu = document.getElementById('mobile-menu');
+  const menuIconOpen = document.getElementById('menu-icon-open');
+  const menuIconClose = document.getElementById('menu-icon-close');
+
+  if (mobileMenuButton && mobileMenu && menuIconOpen && menuIconClose) {
+    mobileMenuButton.addEventListener('click', () => {
+      const isExpanded = mobileMenuButton.getAttribute('aria-expanded') === 'true';
+
+      mobileMenuButton.setAttribute('aria-expanded', (!isExpanded).toString());
+      mobileMenu.classList.toggle('hidden');
+      menuIconOpen.classList.toggle('hidden');
+      menuIconOpen.classList.toggle('block');
+      menuIconClose.classList.toggle('hidden');
+      menuIconClose.classList.toggle('block');
+    });
+  }
+
+  // Mobile programs submenu toggle
+  const mobileProgramsButton = document.getElementById('mobile-programs-button');
+  const mobileProgramsSubmenu = document.getElementById('mobile-programs-submenu');
+
+  if (mobileProgramsButton && mobileProgramsSubmenu) {
+    mobileProgramsButton.addEventListener('click', () => {
+      const isExpanded = mobileProgramsButton.getAttribute('aria-expanded') === 'true';
+
+      mobileProgramsButton.setAttribute('aria-expanded', (!isExpanded).toString());
+      mobileProgramsSubmenu.classList.toggle('hidden');
+    });
+  }
+
+  // Close mobile menu when clicking outside
+  document.addEventListener('click', (event) => {
+    if (mobileMenu && !mobileMenu.classList.contains('hidden')) {
+      const nav = document.querySelector('nav');
+      if (nav && !nav.contains(event.target as Node)) {
+        mobileMenu.classList.add('hidden');
+        if (mobileMenuButton) {
+          mobileMenuButton.setAttribute('aria-expanded', 'false');
+        }
+        menuIconOpen?.classList.remove('hidden');
+        menuIconOpen?.classList.add('block');
+        menuIconClose?.classList.add('hidden');
+        menuIconClose?.classList.remove('block');
+      }
+    }
+  });
+</script>
+
+<style>
+  /* Ensure dropdown stays visible on hover */
+  .group:hover .group-hover\:opacity-100 {
+    opacity: 1;
+  }
+
+  .group:hover .group-hover\:visible {
+    visibility: visible;
+  }
+</style>

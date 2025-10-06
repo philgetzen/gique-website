@@ -1,16 +1,78 @@
 ---
-
+import Layout from '../components/Layout.astro';
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout title="Gique - STEAM Education for Creative Learners">
+  <!-- Hero Section -->
+  <div class="text-center mb-16">
+    <h1 class="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
+      Welcome to Gique
+    </h1>
+    <p class="text-xl md:text-2xl text-gray-700 max-w-3xl mx-auto mb-8">
+      A Boston-based nonprofit 501(c)(3) organization inspiring youth in STEAM education through art, science, and technology.
+    </p>
+    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+      <a href="/about-us" class="inline-block bg-blue-600 text-white px-8 py-3 rounded-md font-semibold hover:bg-blue-700 transition-colors">
+        Learn More About Us
+      </a>
+      <a href="/steam-resources" class="inline-block bg-gray-200 text-gray-900 px-8 py-3 rounded-md font-semibold hover:bg-gray-300 transition-colors">
+        Explore STEAM Resources
+      </a>
+    </div>
+  </div>
+
+  <!-- Mission Statement -->
+  <div class="bg-blue-50 rounded-lg p-8 mb-16">
+    <h2 class="text-3xl font-bold text-gray-900 mb-4 text-center">Our Mission</h2>
+    <p class="text-lg text-gray-700 text-center max-w-4xl mx-auto">
+      Gique exists to inspire and educate youth in STEAM (Science, Technology, Engineering, Art, and Mathematics) through innovative programs that blend creativity with technical skills. We believe that every young person deserves access to engaging, hands-on learning experiences that prepare them for the future.
+    </p>
+  </div>
+
+  <!-- Programs Overview -->
+  <div class="mb-16">
+    <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">Our Programs</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <a href="/science-can-dance" class="block p-6 bg-white border border-gray-200 rounded-lg hover:shadow-lg transition-shadow">
+        <h3 class="text-xl font-semibold text-gray-900 mb-2">Science Can Dance!</h3>
+        <p class="text-gray-600">Integrating science and dance education to inspire creative learning.</p>
+      </a>
+
+      <a href="/after-school-programs" class="block p-6 bg-white border border-gray-200 rounded-lg hover:shadow-lg transition-shadow">
+        <h3 class="text-xl font-semibold text-gray-900 mb-2">After-School Programs</h3>
+        <p class="text-gray-600">Hands-on STEAM activities that engage students beyond the classroom.</p>
+      </a>
+
+      <a href="/art-science-of-beer" class="block p-6 bg-white border border-gray-200 rounded-lg hover:shadow-lg transition-shadow">
+        <h3 class="text-xl font-semibold text-gray-900 mb-2">Art & Science of Beer</h3>
+        <p class="text-gray-600">Exploring the chemistry, biology, and artistry of brewing.</p>
+      </a>
+
+      <a href="/fab-fest" class="block p-6 bg-white border border-gray-200 rounded-lg hover:shadow-lg transition-shadow">
+        <h3 class="text-xl font-semibold text-gray-900 mb-2">Fab Festival</h3>
+        <p class="text-gray-600">Celebrating innovation and creativity in digital fabrication.</p>
+      </a>
+
+      <a href="/art-of-code" class="block p-6 bg-white border border-gray-200 rounded-lg hover:shadow-lg transition-shadow">
+        <h3 class="text-xl font-semibold text-gray-900 mb-2">Art of Code</h3>
+        <p class="text-gray-600">Teaching programming through creative coding and digital art.</p>
+      </a>
+
+      <a href="/typography" class="block p-6 bg-white border border-gray-200 rounded-lg hover:shadow-lg transition-shadow">
+        <h3 class="text-xl font-semibold text-gray-900 mb-2">Typography</h3>
+        <p class="text-gray-600">Exploring the intersection of design, technology, and communication.</p>
+      </a>
+    </div>
+  </div>
+
+  <!-- Call to Action -->
+  <div class="text-center bg-gray-900 text-white rounded-lg p-12">
+    <h2 class="text-3xl font-bold mb-4">Get Involved</h2>
+    <p class="text-lg mb-6 max-w-2xl mx-auto">
+      Join us in inspiring the next generation of creative thinkers and problem solvers.
+    </p>
+    <a href="/contact" class="inline-block bg-white text-gray-900 px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition-colors">
+      Contact Us
+    </a>
+  </div>
+</Layout>

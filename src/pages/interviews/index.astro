@@ -1,4 +1,5 @@
 ---
+import Navigation from '../../components/Navigation.astro';
 // Interviews main page
 const title = "Interviews - Gique";
 ---
@@ -11,7 +12,10 @@ const title = "Interviews - Gique";
     <title>{title}</title>
   </head>
   <body>
-    <h1>Interviews</h1>
-    <p>Conversations with STEAM professionals and educators.</p>
+    <Navigation />
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <h1>Interviews</h1>
+      <p>Conversations with STEAM professionals and educators.</p>
+    </main>
   </body>
 </html>

@@ -1,4 +1,5 @@
 ---
+import Navigation from '../components/Navigation.astro';
 // Contact page
 const title = "Contact Us - Gique";
 ---
@@ -11,7 +12,10 @@ const title = "Contact Us - Gique";
     <title>{title}</title>
   </head>
   <body>
-    <h1>Contact Us</h1>
+    <Navigation />
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <h1>Contact Us</h1>
     <p>Get in touch: <a href="mailto:hello@gique.me">hello@gique.me</a></p>
+    </main>
   </body>
 </html>

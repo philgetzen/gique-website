@@ -1,4 +1,5 @@
 ---
+import Navigation from '../components/Navigation.astro';
 // Art & Science of Beer program page
 const title = "Art & Science of Beer - Gique";
 ---
@@ -11,7 +12,10 @@ const title = "Art & Science of Beer - Gique";
     <title>{title}</title>
   </head>
   <body>
-    <h1>Art & Science of Beer</h1>
+    <Navigation />
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <h1>Art & Science of Beer</h1>
     <p>Exploring the science and artistry of brewing.</p>
+    </main>
   </body>
 </html>

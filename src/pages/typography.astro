@@ -1,4 +1,5 @@
 ---
+import Navigation from '../components/Navigation.astro';
 // Typography booth page
 const title = "Typography - Gique";
 ---
@@ -11,7 +12,10 @@ const title = "Typography - Gique";
     <title>{title}</title>
   </head>
   <body>
-    <h1>Typography</h1>
+    <Navigation />
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <h1>Typography</h1>
     <p>Exploring the art and science of type design.</p>
+    </main>
   </body>
 </html>

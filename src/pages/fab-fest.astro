@@ -1,4 +1,5 @@
 ---
+import Navigation from '../components/Navigation.astro';
 // Fab Festival page
 const title = "Fab Festival - Gique";
 ---
@@ -11,7 +12,10 @@ const title = "Fab Festival - Gique";
     <title>{title}</title>
   </head>
   <body>
-    <h1>Fab Festival</h1>
+    <Navigation />
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <h1>Fab Festival</h1>
     <p>Celebrating fabrication and making.</p>
+    </main>
   </body>
 </html>
