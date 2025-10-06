@@ -1,8 +1,8 @@
 ---
 title: "Owen Beane"
 slug: "owen-beane"
-date: "Fri, 30 May 2014 01:58:43 +0000"
-author: "Gique"
+date: "2014-05-30"
+author: "Unknown"
 ---
 
 # Meet Gique **Owen Beane**

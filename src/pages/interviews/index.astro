@@ -6,22 +6,26 @@ const interviews = await getCollection('interviews');
 
 // Map of profile images for each interview (using local images)
 const profileImages: Record<string, string> = {
-  'niharika-vattikonda': '/images/interviews/interview-23.jpg',
-  'sara-molcan': '/images/interviews/interview-25.jpg',
-  'shantell-martin': '/images/interviews/interview-18.jpg',
-  'suelin-chen': '/images/interviews/interview-15.jpg',
-  'zach-lanoue': '/images/interviews/interview-1.jpg',
-};
-
-// Map of descriptions for each interview
-const descriptions: Record<string, string> = {
-  'niharika-vattikonda': 'Eight-year-old coder who started a CS education nonprofit in high school',
-  'sara-molcan': 'Painter whose work is informed by neuroscience of memory preservation',
-  'suelin-chen': 'Entrepreneur repositioning death in our culture using technology',
-  'shantell-martin': 'NYC\'s "coolest it girl" transforming circuit boards into art storyboards',
-  'owen-beane': 'Professional piercer at the intersection of precision art and healing biology',
-  'zach-lanoue': 'Pushing the envelope of experience through technology and athletics',
-  'megan-cox': 'MIT \'14, Founder & CEO of Wink All Natural Cosmetics',
+  'daniel-parker': '/images/interviews/profiles/daniel-parker.jpg',
+  'danielle-williams': '/images/interviews/profiles/danielle-williams.jpg',
+  'eleanor-lutz': '/images/interviews/profiles/eleanor-lutz.jpg',
+  'emma-feshbach': '/images/interviews/profiles/emma-feshbach.jpg',
+  'jacob-cramer': '/images/interviews/profiles/jacob-cramer.jpg',
+  'joel-sanchez': '/images/interviews/profiles/joel-sanchez.jpg',
+  'kevin-ferreira': '/images/interviews/profiles/kevin-ferreira.jpg',
+  'kristina-hagman': '/images/interviews/profiles/kristina-hagman.jpg',
+  'lily-barrett': '/images/interviews/profiles/lily-barrett.jpg',
+  'lisie-michel': '/images/interviews/profiles/lisie-michel.jpg',
+  'mitali-kini': '/images/interviews/profiles/mitali-kini.jpg',
+  'mitch-gaynor': '/images/interviews/profiles/mitch-gaynor.jpg',
+  'niharika-vattikonda': '/images/interviews/profiles/niharika-vattikonda.jpg',
+  'phillip-daniel': '/images/interviews/profiles/phillip-daniel.jpg',
+  'project-codet': '/images/interviews/profiles/project-codet.jpg',
+  'sara-molcan': '/images/interviews/profiles/sara-molcan.jpg',
+  'shantell-martin': '/images/interviews/profiles/shantell-martin.jpg',
+  'suelin-chen': '/images/interviews/profiles/suelin-chen.jpg',
+  'susan-israel': '/images/interviews/profiles/susan-israel.jpg',
+  'zach-lanoue': '/images/interviews/profiles/zach-lanoue.jpg',
 };
 ---
 
@@ -39,11 +43,14 @@ const descriptions: Record<string, string> = {
       </p>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
-      {interviews.map(interview => (
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+      {interviews
+        .filter(interview => !interview.slug.match(/^[a-z0-9]{20,}$/))
+        .sort((a, b) => a.data.title.localeCompare(b.data.title))
+        .map(interview => (
         <a href={`/interviews/${interview.slug}`}
            class="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-xl transition-all group">
-          {profileImages[interview.slug] && (
+          {profileImages[interview.slug] ? (
             <div class="aspect-square overflow-hidden bg-gray-100">
               <img
                 src={profileImages[interview.slug]}
@@ -51,14 +58,15 @@ const descriptions: Record<string, string> = {
                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
               />
             </div>
+          ) : (
+            <div class="aspect-square bg-gradient-to-br from-blue-100 to-purple-100 flex items-center justify-center">
+              <span class="text-4xl font-bold text-gray-400">{interview.data.title.charAt(0)}</span>
+            </div>
           )}
           <div class="p-6">
             <h3 class="text-xl font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
               {interview.data.title}
             </h3>
-            {descriptions[interview.slug] && (
-              <p class="text-gray-600 mb-3">{descriptions[interview.slug]}</p>
-            )}
             <p class="text-blue-600 font-medium group-hover:text-blue-700">
               Read interview →
             </p>

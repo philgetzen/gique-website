@@ -1,8 +1,8 @@
 ---
 title: "Megan Cox"
 slug: "megan-cox"
-date: "Thu, 16 Jun 2016 19:50:23 +0000"
-author: "Gique"
+date: "2016-06-16"
+author: "Unknown"
 ---
 
 # Meet Gique **Megan Cox**
