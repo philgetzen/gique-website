@@ -39,26 +39,26 @@ These are the tasks to be completed for the spec detailed in @.agent-os/specs/20
   - [x] 3.6 Create content inventory document listing all extracted pages
   - [x] 3.7 Commit organized content to version control
 
-- [ ] 4. Create image download and optimization script
-  - [ ] 4.1 Create `scripts/download-images.js` file
-  - [ ] 4.2 Install `sharp` for image processing
-  - [ ] 4.3 Implement image URL extraction from Markdown files
-  - [ ] 4.4 Implement image download function with retry logic
-  - [ ] 4.5 Implement image optimization (resize, compress, WebP conversion)
-  - [ ] 4.6 Create organized directory structure in `public/images/`
-  - [ ] 4.7 Implement progress indicator for downloads
-  - [ ] 4.8 Update Markdown files with local image references
-  - [ ] 4.9 Generate image manifest JSON
-  - [ ] 4.10 Add error handling for failed downloads
+- [x] 4. Create image download and optimization script
+  - [x] 4.1 Create `scripts/download-images.js` file
+  - [x] 4.2 Install `sharp` for image processing
+  - [x] 4.3 Implement image URL extraction from Markdown files
+  - [x] 4.4 Implement image download function with retry logic
+  - [x] 4.5 Implement image optimization (resize, compress, WebP conversion)
+  - [x] 4.6 Create organized directory structure in `public/images/`
+  - [x] 4.7 Implement progress indicator for downloads
+  - [x] 4.8 Update Markdown files with local image references
+  - [x] 4.9 Generate image manifest JSON
+  - [x] 4.10 Add error handling for failed downloads
 
-- [ ] 5. Download and optimize all images from Squarespace
-  - [ ] 5.1 Run image download script
-  - [ ] 5.2 Monitor download progress and handle any failures
-  - [ ] 5.3 Verify all images downloaded successfully
-  - [ ] 5.4 Check image optimization results (file sizes reduced)
-  - [ ] 5.5 Verify image references updated in Markdown files
-  - [ ] 5.6 Review images manually for quality
-  - [ ] 5.7 Commit images and manifest to version control
+- [x] 5. Download and optimize all images from Squarespace
+  - [x] 5.1 Run image download script
+  - [x] 5.2 Monitor download progress and handle any failures
+  - [x] 5.3 Verify all images downloaded successfully
+  - [x] 5.4 Check image optimization results (file sizes reduced)
+  - [x] 5.5 Verify image references updated in Markdown files
+  - [x] 5.6 Review images manually for quality
+  - [x] 5.7 Commit images and manifest to version control
 
 - [ ] 6. Create site structure with all page routes
   - [ ] 6.1 Create `src/pages/index.astro` (homepage)
