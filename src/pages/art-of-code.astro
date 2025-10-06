@@ -1,21 +1,8 @@
 ---
-import Navigation from '../components/Navigation.astro';
-// Art of Code program page
-const title = "Art of Code - Gique";
+import Layout from '../components/Layout.astro';
 ---
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width" />
-    <title>{title}</title>
-  </head>
-  <body>
-    <Navigation />
-    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-      <h1>Art of Code</h1>
+<Layout title="Art of Code - Gique">
+  <h1>Art of Code</h1>
     <p>Creative coding and digital art education.</p>
-    </main>
-  </body>
-</html>
+</Layout>

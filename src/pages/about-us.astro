@@ -1,21 +1,8 @@
 ---
-import Navigation from '../components/Navigation.astro';
-// About Us page
-const title = "About Us - Gique";
+import Layout from '../components/Layout.astro';
 ---
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width" />
-    <title>{title}</title>
-  </head>
-  <body>
-    <Navigation />
-    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-      <h1>About Us</h1>
+<Layout title="About Us - Gique">
+  <h1>About Us</h1>
     <p>Gique is a Boston-based nonprofit 501(c)(3) organization which exists to inspire and educate youth in STEAM.</p>
-    </main>
-  </body>
-</html>
+</Layout>
