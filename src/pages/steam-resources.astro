@@ -1,15 +1,291 @@
 ---
 import Layout from '../components/Layout.astro';
-import { getEntry } from 'astro:content';
-
-const page = await getEntry('pages', 'steam-resources');
-const { Content } = await page.render();
 ---
 
 <Layout title="STEAM Resources - Gique">
   <div class="max-w-4xl mx-auto">
-    <article class="prose prose-lg max-w-none">
-      <Content />
-    </article>
+    <h1 class="text-4xl font-bold text-gray-900 mb-6">STEAM Resources</h1>
+    <p class="text-xl text-gray-700 mb-12">
+      This page connects students of all ages, parents, and teachers to just a few of the many <a href="http://stemtosteam.org" class="text-blue-600 hover:text-blue-700" target="_blank" rel="noopener noreferrer">STEAM</a> resources, programs, and other learning opportunities provided both in-person and online. Gique believes that STEAM learning shouldn't end when students leave their classrooms or our programs and workshops. Check out the resources below to stay inspired in STEAM!
+    </p>
+
+    <div class="space-y-8">
+      <!-- Introductory Guides -->
+      <div class="bg-blue-50 rounded-lg p-6">
+        <h2 class="text-2xl font-semibold text-gray-900 mb-4">Interested in Web Design or Learning How To Code?</h2>
+        <div class="space-y-4">
+          <p class="text-gray-700">
+            Check out <a href="https://www.vodien.com/blog/education/learning-computer-language-html-resource.php" class="text-blue-600 hover:text-blue-700" target="_blank" rel="noopener noreferrer">this awesome introductory guide about learning computer science</a>, shared with us by Gique Sarah from San Diego, CA, who is learning to code herself! This guide provides great information for both parents and students who are curious about advancing their computing skills through hands-on, self-led learning!
+          </p>
+          <p class="text-gray-700">
+            Also check out these awesome resources on <a href="https://www.clevelandhomeshd.com/home-design-color-theory.php" class="text-blue-600 hover:text-blue-700" target="_blank" rel="noopener noreferrer">color theory</a> and a beginner's guide to <a href="http://ithare.com/a-beginners-guide-to-programming-languages/" class="text-blue-600 hover:text-blue-700" target="_blank" rel="noopener noreferrer">programming languages</a>, shared with us by Gique Tom Coner and his web design students from his local library!
+          </p>
+        </div>
+      </div>
+
+      <!-- Online Resources -->
+      <div class="bg-white border border-gray-200 rounded-lg p-6">
+        <h2 class="text-2xl font-semibold text-gray-900 mb-4">Online Resources</h2>
+        <div class="space-y-4">
+          <div>
+            <h3 class="text-lg font-medium text-gray-900 mb-2">
+              <a href="http://appinventor.mit.edu/explore/about-us.html" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-700">
+                MIT App Inventor →
+              </a>
+            </h3>
+            <p class="text-gray-600">MIT App Inventor is an innovative beginner's introduction to programming and app creation that transforms the complex language of text-based coding into visual, drag-and-drop building blocks. The simple graphical interface grants even an inexperienced novice the ability to create a basic, fully functional app within an hour or less.</p>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-medium text-gray-900 mb-2">
+              <a href="http://www.codecademy.com" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-700">
+                Codecademy →
+              </a>
+            </h3>
+            <p class="text-gray-600">Learn to code interactively, for free through different challenges in your web browser. Codecademy is an online interactive platform that offers free coding classes in 12 different programming languages including Python, Java, PHP, JavaScript, Ruby, SQL, and Sass, as well as markup languages HTML and CSS.</p>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-medium text-gray-900 mb-2">
+              <a href="https://www.cs-first.com" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-700">
+                CS First →
+              </a>
+            </h3>
+            <p class="text-gray-600">CS First is a free program that increases student access and exposure to computer science education through after-school, in-school, and summer programs. All clubs are run by teachers and/or community volunteers. CS First materials are completely free and available online, are targeted at students in grades 4th-8th (ages 9-14), and involve block-based coding using Scratch.</p>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-medium text-gray-900 mb-2">
+              <a href="http://scratch.mit.edu" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-700">
+                Scratch →
+              </a>
+            </h3>
+            <p class="text-gray-600">Scratch is a programming language that makes it easy to create your own interactive stories, animations, games, music, and art... and share your creations on the web. It provides a stepping stone to the more advanced world of computer programming.</p>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-medium text-gray-900 mb-2">
+              <a href="http://www.computerclubhouse.org/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-700">
+                Computer Clubhouse →
+              </a>
+            </h3>
+            <p class="text-gray-600">Founded in 1993 by The Computer Museum (now a part of the Museum of Science, Boston) in collaboration with MIT Media Lab, the Clubhouse encourages young people around the world to explore their own ideas, develop new skills, and build confidence in themselves through the use of technology. The Clubhouse is a free program for Boston area youth ages 10-18.</p>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-medium text-gray-900 mb-2">
+              <a href="https://dash.generalassemb.ly" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-700">
+                Dash →
+              </a>
+            </h3>
+            <p class="text-gray-600">Dash teaches HTML, CSS, and JavaScript, which are the building blocks of designing websites, through fun projects you can do in your web browser. Learn how to design and build websites and Tumblr layouts as you move through the tutorials.</p>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-medium text-gray-900 mb-2">
+              <a href="http://www.khanacademy.org" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-700">
+                Khan Academy →
+              </a>
+            </h3>
+            <p class="text-gray-600">Learn how to program drawings, animations, and games using JavaScript & ProcessingJS, or learn how to create webpages with HTML & CSS. You can share whatever you create, explore what others have created and learn from each other.</p>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-medium text-gray-900 mb-2">
+              <a href="http://www.edx.org/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-700">
+                EdX →
+              </a>
+            </h3>
+            <p class="text-gray-600">EdX is an online learning destination and online course provider, offering high-quality science, technology, engineering, art, and math courses from the world's best universities and institutions to learners everywhere for free.</p>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-medium text-gray-900 mb-2">
+              <a href="https://www.coursera.org" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-700">
+                Coursera →
+              </a>
+            </h3>
+            <p class="text-gray-600">Coursera is an education platform that provides universal access to the world's best education, partnering with top universities and organizations worldwide to offer courses online for anyone to take. Explore a variety of topics, like computing, not just coding at Coursera.</p>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-medium text-gray-900 mb-2">
+              <a href="http://minecraft.net" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-700">
+                Minecraft →
+              </a>
+            </h3>
+            <p class="text-gray-600">Minecraft is a game about breaking and placing blocks. At first, people build structures to protect against nocturnal monsters, but as the game grew players worked together to create wonderful, imaginative things.</p>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-medium text-gray-900 mb-2">
+              <a href="http://www.sploder.com/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-700">
+                Sploder →
+              </a>
+            </h3>
+            <p class="text-gray-600">Sploder is a place where anyone can make games online and share them with the world. Make your own platformer games, space-themed shoot-em-ups, retro arcade games, and even complex physics-based puzzle games. No programming skill is necessary.</p>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-medium text-gray-900 mb-2">
+              <a href="http://www.taleblazer.org" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-700">
+                TaleBlazer →
+              </a>
+            </h3>
+            <p class="text-gray-600">TaleBlazer is a platform for making and playing location-based mobile AR games. TaleBlazer players download a mobile app to their device to play games geolocated in real-world locations and to interact with virtual characters and artifacts within the context of real landscapes.</p>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-medium text-gray-900 mb-2">
+              <a href="https://www.afterhoursprogramming.com" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-700">
+                After Hours Programming →
+              </a>
+            </h3>
+            <p class="text-gray-600">After Hours Programming teaches you the fundamentals of web development and not just programming. You will learn how to create amazing websites through programming and design tutorials. The web development tutorials are designed for you to move through them in order to have an overall understanding of web design and development.</p>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-medium text-gray-900 mb-2">
+              <a href="https://www.tynker.com/?t=reset" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-700">
+                Tynker →
+              </a>
+            </h3>
+            <p class="text-gray-600">With Tynker's revolutionary approach, kids learn to code using visual code blocks that represent real programming concepts. They progress to text languages like JavaScript and Python as they continue to play through 2,000+ interest-driven activities.</p>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-medium text-gray-900 mb-2">
+              <a href="https://www.certstaff.com/classes/study-mobile-app-development.html" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-700">
+                Certstaffix Training →
+              </a>
+            </h3>
+            <p class="text-gray-600">Certstaffix® Training specializes in providing corporate computer software classes nationwide. Our instructors are professional trainers and utilize hands-on exercises to reinforce lecture.</p>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-medium text-gray-900 mb-2">
+              <a href="https://www.varsitytutors.com/virtual-summer-camp-catalog" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-700">
+                Varsity Tutors →
+              </a>
+            </h3>
+            <p class="text-gray-600">Varsity Tutors has hundreds of summer camps available, the majority of them totally free for students! Classes range from K-12 and any learner is sure to find a class that interests them. Some camps are led by celebrities like Coyote Peterson (Animal Planet Expert) and Phil Cook (TikTok Chemist).</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Local Out-of-School Time Enrichment Programs -->
+      <div class="bg-white border border-gray-200 rounded-lg p-6">
+        <h2 class="text-2xl font-semibold text-gray-900 mb-4">Local Out-of-School Time Enrichment Programs</h2>
+        <div class="space-y-4">
+          <div>
+            <h3 class="text-lg font-medium text-gray-900 mb-2">
+              <a href="http://www.scienceclubforgirls.org/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-700">
+                Science Club for Girls →
+              </a>
+            </h3>
+            <p class="text-gray-600">Science Club for Girls provides girls-specific programming by connecting girls in K-12 grades, especially those from underrepresented groups, with female mentor-scientists through free science, technology, engineering and math (STEM) programs in a fun, nurturing, interactive environment.</p>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-medium text-gray-900 mb-2">
+              <a href="https://girlswhocode.com" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-700">
+                Girls Who Code →
+              </a>
+            </h3>
+            <p class="text-gray-600">Girls Who Code is a nonprofit organization which aims to support and increase the number of women in computer science. The organization runs programs which teach computing and programming skills to high school girls, including their free 7-week Summer Immersion Programs for current 10th-11th grade girls to learn coding and get exposure to tech jobs.</p>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-medium text-gray-900 mb-2">
+              <a href="http://resilientcoders.org/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-700">
+                Resilient Coders →
+              </a>
+            </h3>
+            <p class="text-gray-600">Resilient Coders believes in social justice through economic empowerment, and in the opportunity for meritocracy in tech. They think holistically about the school-to-workforce pipeline, offering a chaining series of programs that guide our hackers through the extensive journey of learning web development.</p>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-medium text-gray-900 mb-2">
+              <a href="http://www.blackgirlscode.com/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-700">
+                Black Girls CODE →
+              </a>
+            </h3>
+            <p class="text-gray-600">Black Girls CODE is devoted to showing the world that black girls can code, and do so much more. By reaching out to the community through workshops and after school programs, Black Girls CODE introduces computer coding lessons to young girls from underrepresented communities in programming languages such as Scratch or Ruby on Rails.</p>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-medium text-gray-900 mb-2">
+              <a href="http://oeop.mit.edu/programs/seed/program-details" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-700">
+                Saturday Engineering Enrichment and Discovery (SEED) Academy →
+              </a>
+            </h3>
+            <p class="text-gray-600">SEED Academy is a five and a half year academic enrichment and career exploration program for public school students from Boston, Cambridge and Lawrence, Massachusetts who have a strong academic record and interest in science and engineering.</p>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-medium text-gray-900 mb-2">
+              <a href="https://www.andover.edu/summersessionoutreach/mathscience/pages/default.aspx" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-700">
+                Mathematics & Science for Minority Students (MS)² →
+              </a>
+            </h3>
+            <p class="text-gray-600">The (MS)² program was founded in 1977 to address the compelling need to cultivate the mathematical and scientific abilities of economically disadvantaged African American, Hispanic/Latino, and Native American high school students. This competitive and rigorous program is free of charge for all students selected.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- National Summer Enrichment Programs -->
+      <div class="bg-white border border-gray-200 rounded-lg p-6">
+        <h2 class="text-2xl font-semibold text-gray-900 mb-4">National Summer Enrichment Programs</h2>
+        <div class="space-y-4">
+          <div>
+            <h3 class="text-lg font-medium text-gray-900 mb-2">
+              <a href="http://oeop.mit.edu/programs" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-700">
+                MIT MITES, E2, and MOSTEC →
+              </a>
+            </h3>
+            <p class="text-gray-600">Since 1975, MIT's Office of Engineering Outreach programs have provided enriching science and engineering experiences to over 3,000 middle and high school students free of charge. 60 to 70 percent of students come from low socio-economic backgrounds. 70 to 80 percent of students are underrepresented minorities.</p>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-medium text-gray-900 mb-2">
+              <a href="https://oso.stanford.edu/programs/97-smash-academy-on-stanford-campus" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-700">
+                Summer Math and Science Honors (SMASH) Academy →
+              </a>
+            </h3>
+            <p class="text-gray-600">The Summer Math and Science Honors (SMASH) Academy is a three-year 5-week summer math and science enrichment program for high achieving, low-income high school students of color focused on Science, Technology, Engineering and Mathematics (STEM). SMASH scholars spend five weeks each summer at a SMASH site on a college campus (currently at Stanford, UC Berkeley or UCLA).</p>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-medium text-gray-900 mb-2">
+              <a href="https://admission.enrollment.cmu.edu/pages/summer-programs-for-diversity" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-700">
+                Summer Academy for Mathematics and Science (SAMS) →
+              </a>
+            </h3>
+            <p class="text-gray-600">If you're entering your senior year of high school and are considering careers in engineering, science and other math-based disciplines, you may be interested in the Summer Academy for Mathematics and Science at Carnegie Mellon University. Consider spending six weeks in our rigorous summer program focusing on technical areas of study.</p>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-medium text-gray-900 mb-2">
+              <a href="https://www.engineering.cornell.edu/diversity/summer/high_school/catalyst/index.cfm" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-700">
+                CATALYST Academy →
+              </a>
+            </h3>
+            <p class="text-gray-600">The CATALYST Academy is a one-week summer residential program for rising high school juniors and seniors. The mission of the CATALYST Academy is to advance diversity in engineering and its related disciplines. Applications from students from backgrounds (African American, Latino/a, or Native American) critically underrepresented in the fields of science, technology, engineering, and math are especially encouraged.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact CTA -->
+      <div class="bg-blue-50 rounded-lg p-8 text-center">
+        <h2 class="text-2xl font-semibold text-gray-900 mb-4">Have a Resource to Share?</h2>
+        <p class="text-gray-700 mb-6">
+          If you have additional resources to suggest for this page, we'd love to hear about it!
+        </p>
+        <a href="mailto:hello@gique.me"
+           class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-lg transition-colors">
+          Send us your suggestion
+        </a>
+      </div>
+    </div>
   </div>
 </Layout>
