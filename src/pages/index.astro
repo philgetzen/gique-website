@@ -2,7 +2,7 @@
 import Layout from '../components/Layout.astro';
 ---
 
-<Layout title="Gique - STEAM Education for Creative Learners">
+<Layout title="Gique - Building The Future with STEAM">
   <!-- Hero Section -->
   <div class="text-center mb-16">
     <!-- Logo -->
@@ -15,32 +15,84 @@ import Layout from '../components/Layout.astro';
     </div>
 
     <h1 class="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-      Welcome to Gique
+      Building The Future with #STEAM
     </h1>
     <p class="text-xl md:text-2xl text-gray-700 max-w-3xl mx-auto mb-8">
-      A Boston-based nonprofit 501(c)(3) organization inspiring youth in STEAM education through art, science, and technology.
+      Empowering youth through hands-on learning in science, tech, engineering, art & math (STEAM).
     </p>
-    <div class="flex flex-col sm:flex-row gap-4 justify-center">
-      <a href="/about-us" class="inline-block bg-blue-600 text-white px-8 py-3 rounded-md font-semibold hover:bg-blue-700 transition-colors">
-        Learn More About Us
-      </a>
-      <a href="/steam-resources" class="inline-block bg-gray-200 text-gray-900 px-8 py-3 rounded-md font-semibold hover:bg-gray-300 transition-colors">
-        Explore STEAM Resources
-      </a>
+  </div>
+
+  <!-- Introduction -->
+  <div class="max-w-4xl mx-auto mb-16">
+    <p class="text-xl text-gray-700 text-center leading-relaxed">
+      Gique is a Boston-based nonprofit 501(c)(3) organization which exists to inspire and educate youth in STEAM. Through our after-school programs and educational workshops, we are building a community full of the next great thinkers, leaders, & makers.
+    </p>
+  </div>
+
+  <!-- STEAM Love Section with Image -->
+  <div class="mb-16">
+    <div class="text-center mb-8">
+      <h2 class="text-4xl font-bold text-gray-900 mb-4">We Love #STEAM.</h2>
+      <img
+        src="https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1501645375363-3IXS01DPN1133SLD7EFT/image-asset.png?format=1500w"
+        alt="STEAM Education"
+        class="mx-auto max-w-2xl w-full h-auto rounded-lg shadow-lg mb-8"
+      />
     </div>
   </div>
 
-  <!-- Mission Statement -->
-  <div class="bg-blue-50 rounded-lg p-8 mb-16">
-    <h2 class="text-3xl font-bold text-gray-900 mb-4 text-center">Our Mission</h2>
-    <p class="text-lg text-gray-700 text-center max-w-4xl mx-auto">
-      Gique exists to inspire and educate youth in STEAM (Science, Technology, Engineering, Art, and Mathematics) through innovative programs that blend creativity with technical skills. We believe that every young person deserves access to engaging, hands-on learning experiences that prepare them for the future.
+  <!-- Innovation Section -->
+  <div class="bg-blue-50 rounded-lg p-12 mb-16">
+    <h2 class="text-4xl font-bold text-gray-900 mb-6 text-center">We Believe Education Fuels Innovation.</h2>
+    <p class="text-xl text-gray-700 text-center max-w-4xl mx-auto leading-relaxed">
+      By providing hands-on learning opportunities to youth, we are working to build a STEAM-powered community of the next great thinkers, leaders, and makers.
     </p>
   </div>
 
-  <!-- Programs Overview -->
+  <!-- Featured Programs Section -->
   <div class="mb-16">
-    <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">Our Programs</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
+      <!-- Science Can Dance -->
+      <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+        <img
+          src="https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1456974785430-QA11WBLOF1A8SAKM5OKH/IMG_9980.jpg?format=1500w"
+          alt="Science Can Dance Program"
+          class="w-full h-64 object-cover"
+        />
+        <div class="p-6">
+          <h3 class="text-2xl font-bold text-gray-900 mb-3">Science Can DANCE! Program</h3>
+          <p class="text-gray-700 mb-4">
+            Gique's Science Can Dance program provides youth with a way to explore science, technology, and engineering through creative movement and dance choreography.
+          </p>
+          <a href="/science-can-dance" class="inline-block bg-blue-600 text-white px-6 py-2 rounded-md font-semibold hover:bg-blue-700 transition-colors">
+            Learn More
+          </a>
+        </div>
+      </div>
+
+      <!-- After-School Programs -->
+      <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+        <img
+          src="https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1456974812590-JVD2GNZKT2J44Q7NFD21/IMG_9627.jpg?format=1500w"
+          alt="After-School Programs"
+          class="w-full h-64 object-cover"
+        />
+        <div class="p-6">
+          <h3 class="text-2xl font-bold text-gray-900 mb-3">After-School Programs</h3>
+          <p class="text-gray-700 mb-4">
+            We engage middle school students in hands-on STEAM learning through our weekly after-school programs at the Boys & Girls Clubs of Dorchester.
+          </p>
+          <a href="/after-school-programs" class="inline-block bg-blue-600 text-white px-6 py-2 rounded-md font-semibold hover:bg-blue-700 transition-colors">
+            Learn More
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- All Programs Grid -->
+  <div class="mb-16">
+    <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">All Programs</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       <a href="/science-can-dance" class="block p-6 bg-white border border-gray-200 rounded-lg hover:shadow-lg transition-shadow">
         <h3 class="text-xl font-semibold text-gray-900 mb-2">Science Can Dance!</h3>
@@ -74,14 +126,14 @@ import Layout from '../components/Layout.astro';
     </div>
   </div>
 
-  <!-- Call to Action -->
-  <div class="text-center bg-gray-900 text-white rounded-lg p-12">
-    <h2 class="text-3xl font-bold mb-4">Get Involved</h2>
+  <!-- STEAM Resources CTA -->
+  <div class="text-center bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg p-12 mb-16">
+    <h2 class="text-3xl font-bold mb-4">Want To Explore STEAM At Home?</h2>
     <p class="text-lg mb-6 max-w-2xl mx-auto">
-      Join us in inspiring the next generation of creative thinkers and problem solvers.
+      Visit our STEAM Resources page!
     </p>
-    <a href="/contact" class="inline-block bg-white text-gray-900 px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition-colors">
-      Contact Us
+    <a href="/steam-resources" class="inline-block bg-white text-blue-600 px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition-colors">
+      Explore Resources
     </a>
   </div>
 </Layout>
