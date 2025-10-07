@@ -32,12 +32,21 @@ import Layout from '../components/Layout.astro';
   <!-- STEAM Love Section with Image -->
   <div class="mb-16">
     <div class="text-center mb-8">
-      <h2 class="text-4xl font-bold text-gray-900 mb-4">We Love #STEAM.</h2>
+      <h2 class="text-4xl font-bold text-gray-900 mb-6">We Love #STEAM.</h2>
       <img
         src="https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1501645375363-3IXS01DPN1133SLD7EFT/image-asset.png?format=1500w"
         alt="STEAM Education"
-        class="mx-auto max-w-2xl w-full h-auto rounded-lg shadow-lg mb-8"
+        class="mx-auto max-w-2xl w-full h-auto rounded-lg shadow-lg mb-6"
       />
+      <div class="max-w-3xl mx-auto bg-blue-50 rounded-lg p-6">
+        <p class="text-lg text-gray-800 font-medium">
+          Check Out Our Research Publication<br />
+          <a href="http://www.sciartmagazine.com/growing-youth-curiosity-and-self-confidence-in-steam-with-gique.html" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-700 underline">
+            "Growing Youth Curiosity and Self-Confidence in STEAM with Gique"
+          </a>
+          <br />in SciArt Magazine!
+        </p>
+      </div>
     </div>
   </div>
 
@@ -49,44 +58,50 @@ import Layout from '../components/Layout.astro';
     </p>
   </div>
 
-  <!-- Featured Programs Section -->
+  <!-- Science Can Dance Section -->
   <div class="mb-16">
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
-      <!-- Science Can Dance -->
-      <div class="bg-white rounded-lg overflow-hidden shadow-lg">
-        <img
-          src="https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1456974785430-QA11WBLOF1A8SAKM5OKH/IMG_9980.jpg?format=1500w"
-          alt="Science Can Dance Program"
-          class="w-full h-64 object-cover"
-        />
-        <div class="p-6">
-          <h3 class="text-2xl font-bold text-gray-900 mb-3">Science Can DANCE! Program</h3>
-          <p class="text-gray-700 mb-4">
-            Gique's Science Can Dance program provides youth with a way to explore science, technology, and engineering through creative movement and dance choreography.
-          </p>
-          <a href="/science-can-dance" class="inline-block bg-blue-600 text-white px-6 py-2 rounded-md font-semibold hover:bg-blue-700 transition-colors">
-            Learn More
-          </a>
-        </div>
+    <div class="text-center mb-8">
+      <h2 class="text-3xl font-bold text-gray-900 mb-4">Learn About Our Science Can DANCE! Program</h2>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div class="aspect-video">
+        <iframe
+          src="https://www.youtube.com/embed/kukFr97lF2c"
+          class="w-full h-full rounded-lg shadow-lg"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
       </div>
+      <div class="aspect-video">
+        <iframe
+          src="https://www.youtube.com/embed/d-7AZprW0Rw"
+          class="w-full h-full rounded-lg shadow-lg"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+  </div>
 
-      <!-- After-School Programs -->
-      <div class="bg-white rounded-lg overflow-hidden shadow-lg">
-        <img
-          src="https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1456974812590-JVD2GNZKT2J44Q7NFD21/IMG_9627.jpg?format=1500w"
-          alt="After-School Programs"
-          class="w-full h-64 object-cover"
-        />
-        <div class="p-6">
-          <h3 class="text-2xl font-bold text-gray-900 mb-3">After-School Programs</h3>
-          <p class="text-gray-700 mb-4">
-            We engage middle school students in hands-on STEAM learning through our weekly after-school programs at the Boys & Girls Clubs of Dorchester.
-          </p>
-          <a href="/after-school-programs" class="inline-block bg-blue-600 text-white px-6 py-2 rounded-md font-semibold hover:bg-blue-700 transition-colors">
-            Learn More
-          </a>
-        </div>
+  <!-- After-School Programs Section -->
+  <div class="mb-16">
+    <div class="text-center mb-8">
+      <h2 class="text-3xl font-bold text-gray-900 mb-4">Learn About Our After-School Programs</h2>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div class="aspect-video">
+        <iframe
+          src="https://www.youtube.com/embed/wvHUKKO232I"
+          class="w-full h-full rounded-lg shadow-lg"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
       </div>
+      <img
+        src="https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1456974812590-JVD2GNZKT2J44Q7NFD21/IMG_9627.jpg?format=1500w"
+        alt="After-School Programs"
+        class="w-full h-auto rounded-lg shadow-lg"
+      />
     </div>
   </div>
 
