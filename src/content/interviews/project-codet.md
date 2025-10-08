@@ -5,7 +5,7 @@ date: "2015-09-03"
 author: "Unknown"
 ---
 
-![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1441313600096-V6ANHI6XEFXFTQ0970X7/image-asset.jpeg?format=original)
+![](/images/general/image-asset.jpeg?format=original)
 
 # Meet Giques Rupali Dhumne and Eleni Georgiou
 
@@ -15,7 +15,7 @@ author: "Unknown"
 
 * * *
 
-![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1441318471183-NJR3M73C1UZPH9WHXX0O/image-asset.jpeg?format=original)
+![](/images/general/image-asset.jpeg?format=original)
 
 # Rupali Dhumne, Founder & CEO of Project CODET
 
@@ -37,7 +37,7 @@ author: "Unknown"
 
 * * *
 
-![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1441318492871-SPO0JXJOU7H6QR6QNT7B/image-asset.jpeg?format=original)
+![](/images/general/image-asset.jpeg?format=original)
 
 # Eleni Georgiou, Executive VP of Project CODET
 
@@ -61,4 +61,4 @@ author: "Unknown"
 
 ## [Learn more about Project CODEt at www.projectcodet.org](http://www.projectcodet.org/)!
 
-[![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1441313616331-M5BBYJGTKJ4TAHOSPA8P/image-asset.png?format=original)](http://www.projectcodet.org/)
+[![](/images/general/image-asset.png?format=original)](http://www.projectcodet.org/)

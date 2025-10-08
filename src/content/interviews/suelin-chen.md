@@ -11,7 +11,7 @@ author: "Unknown"
 
 * * *
 
-![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1448312880124-RBQLGRH2STYVS910FEJI/image-asset.jpeg?format=original)
+![](/images/general/image-asset.jpeg?format=original)
 
 ### Tell us about yourself.
 
@@ -25,7 +25,7 @@ Even though I don't directly use knowledge from my PhD, I use the skills every s
 
 * * *
 
-[![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1448313116222-FHWBUK1Y1US40YDUWG4V/facebook-cake.png?format=original)](http://www.joincake.com)
+[![](/images/general/facebook-cake.png?format=original)](http://www.joincake.com)
 
 ### How was CAKE created?
 
@@ -49,6 +49,6 @@ I have learned over the years that you have to stay humble, but you also have to
 
 * * *
 
-[![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1448313366342-FTQY1AWE6QKR1ZZ0S6WV/image-asset.jpeg?format=original)](http://joincake.com)
+[![](/images/general/image-asset.jpeg?format=original)](http://joincake.com)
 
 ## [CAKE](http://joincake.com) is a company that repositions death in our lives and our society by making it easier to think about.  Their first-in-class, mobile-friendly web app helps users discover their end-of-life preferences, and store and share those preferences securely in the cloud. In addition to the app, CAKE offers personalized concierge services with end-of-life planning experts.

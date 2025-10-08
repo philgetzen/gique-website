@@ -11,7 +11,7 @@ author: "Unknown"
 
 * * *
 
-![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1491834218530-AR84BM2PPW9UYF479338/Kristina_Hagman.jpg?format=original)
+![](/images/general/kristina_hagman.jpg?format=original)
 
 ### Tell us about your background & how it led you to where you are today.
 
@@ -21,7 +21,7 @@ _spark_ is composed of a small group of art lovers who want to see more art arou
 
 * * *
 
-![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1491834304662-25CD1O993ICWL49KRH36/image-asset.jpeg?format=original) ![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1491834287497-AOL9YNV9TG9Q9FZ146V1/Peek11.JPG?format=original)
+![](/images/general/image-asset.jpeg?format=original) ![](/images/general/peek11.jpg?format=original)
 
 ### How does your work combine art and other disciplines?
 
@@ -31,11 +31,11 @@ In the past, we’ve put on shows and events all over campus. Tape installation,
 
 * * *
 
-![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1491834412312-Y4U49D975QE2TW5477OF/image-asset.jpeg?format=original)
+![](/images/general/image-asset.jpeg?format=original)
 
 ### What does being a gique mean to you?
 
-![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1491834369630-JIA134Q2JGM2Z4LUP7XD/Tape+Art.jpeg?format=original)
+![](/images/general/tape-art.jpeg?format=original)
 
 "A “gique” is passionate about sharing their creativity and innovation with the world. People are inherently interdisciplinary and it is important to discard the boundaries that are often placed between art, science, and technology. They are stronger together!
 
@@ -47,7 +47,7 @@ In the past, we’ve put on shows and events all over campus. Tape installation,
 
 * * *
 
-[![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1491833868464-V8627K5K7KFDHVOEEBJ1/spark.jpg?format=original)](http://www.northeastern.edu/spark/)
+[![](/images/general/spark.jpg?format=original)](http://www.northeastern.edu/spark/)
 
 > **_SPARK_ IS NORTHEASTERN’S STUDENT-RUN CONTEMPORARY ART INITIATIVE.**
 

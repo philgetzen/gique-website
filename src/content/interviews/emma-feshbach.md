@@ -9,7 +9,7 @@ author: "Unknown"
 
 **MIT '15, Ballerina, Painter, and Mechanical Engineer**
 
-![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1431451232133-PE9JVCGOAIU4SHW9JD3Z/image-asset.jpeg?format=original) ![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1431451295241-2O65SV4Y5B4Y0996F2VE/image-asset.jpeg?format=original) ![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1431451322488-293U9CLD1ECV15OKTTL1/image-asset.jpeg?format=original)
+![](/images/general/image-asset.jpeg?format=original) ![](/images/general/image-asset.jpeg?format=original) ![](/images/general/image-asset.jpeg?format=original)
 
 ## Emma works at the [MIT CityFarm](http://mitcityfarm.media.mit.edu/), which designs soil-free urban farming systems capable of producing affordable and high-quality food in the heart of our future cities.  
 

@@ -11,7 +11,7 @@ author: "Unknown"
 
 * * *
 
-![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1442668916664-DBVAPU04OA9EOCXHRRUL/image-asset.jpeg?format=original)
+![](/images/general/image-asset.jpeg?format=original)
 
 ### Tell us about yourself.
 
@@ -21,7 +21,7 @@ After graduation I did some sales, dabbled as a UX/UI designer and also was a pr
 
 * * *
 
-![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1442669260714-M7WNYCQMB3UZKUQCA09T/image-asset.jpeg?format=original) ![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1442669187179-R6O4M2GTVOH8P1609VUD/image-asset.png?format=original)
+![](/images/general/image-asset.jpeg?format=original) ![](/images/general/image-asset.png?format=original)
 
 ### How did you get to where you are today?
 
@@ -43,7 +43,7 @@ Being a Gique in my eyes is all about breaking down those silos and barriers. Ev
 
 * * *
 
-![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1442669624325-6123YVEHQNL07Q5CJ5JC/image-asset.png?format=original)
+![](/images/general/image-asset.png?format=original)
 
 ### What advice do you want to offer the people who read this?
 
@@ -63,6 +63,6 @@ That’s the best advice I’ve ever gotten in my life and it’s what gets me o
 
 * * *
 
-[![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1442669981469-VJVGKP4JU4IWUMFPQG5A/image-asset.png?format=original)](http://parkeasier.com)
+[![](/images/general/image-asset.png?format=original)](http://parkeasier.com)
 
 **[SPOT](http://parkeasier.com)** is the Airbnb of parking. Their iOS app has created a mobile marketplace connecting those lucky enough to have a private, off-street parking space, and those on the hunt for one. Have a SPOT? List it for rent whenever your not using it. It could be 24 hours a day, during the mornings while you’re at work, or that hour every Tuesday that you’re at spin class. Need a SPOT? Simply open the app, select a SPOT that works for you and confirm your reservation. With over a million dollars in funding, expansion into a new market underway and an ever-improving app, SPOT is truly living up to it’s tagline and making it possible to “park easier”.

@@ -11,7 +11,7 @@ author: "Unknown"
 
 * * *
 
-![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1454261228696-SZ4T4GTCUAXZHQF43C2W/image-asset.jpeg?format=original) ![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1454261377470-TANF9V1FBSGD3UCJKZNG/IMG_20150121_162602.jpg?format=original)
+![](/images/general/image-asset.jpeg?format=original) ![](/images/general/img_20150121_162602.jpg?format=original)
 
 ### Tell us about your background & how it led you to where you are today.
 
@@ -29,11 +29,11 @@ Eventually I came back to ballet. I found a ballet company that I could dance wi
 
 For me, living life to the fullest isn't about skydiving or eating frogs legs, it's about developing myself as a person and making a difference. The more ways I can do those things--through STEM or through the arts--the happier I am."
 
-![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1454261963738-EC9OIQJPU43JC1XLAGJN/image-asset.jpeg?format=original)
+![](/images/general/image-asset.jpeg?format=original)
 
 * * *
 
-![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1454261984523-ZTNQ7JD27E8NLAH63AMM/4396_89219593254_5843792_n+%281%29.jpg?format=original)
+![](/images/general/4396_89219593254_5843792_n-281-29.jpg?format=original)
 
 ### What does being a gique mean to you?
 

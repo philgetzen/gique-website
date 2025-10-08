@@ -11,7 +11,7 @@ author: "Unknown"
 
 * * *
 
-![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1468785856572-3EMLT8UFI7CY5EBFAOLJ/image-asset.jpeg?format=original) ![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1468786244476-MOO4KOE3MKGKOYH0ED1X/image-asset.jpeg?format=original)
+![](/images/general/image-asset.jpeg?format=original) ![](/images/general/image-asset.jpeg?format=original)
 
 ### Tell us about your background & how it led you to where you are today.
 
@@ -37,7 +37,7 @@ For me, being a Gique means reminding myself, my students, and my artist colleag
 
 * * *
 
-![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1468786514338-D2211TIS6IJLJWCR0SP4/image-asset.png?format=original)
+![](/images/general/image-asset.png?format=original)
 
 ### Any words of wisdom?
 

@@ -9,7 +9,7 @@ author: "Unknown"
 
 **MIT '15, Dancer/Choreographer & Doctor of Medicine Student at Cornell University**
 
-![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1436909540021-AYUJYARYNEBMFSX8UE41/image-asset.jpeg?format=original) ![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1436909661823-QJVNVV7CXHZHKRU44T0Y/image-asset.jpeg?format=original)
+![](/images/general/image-asset.jpeg?format=original) ![](/images/general/image-asset.jpeg?format=original)
 
 ## Tell us about how you got to where you are today.
 
@@ -33,7 +33,7 @@ Over the past four years at MIT I conducted research in a cancer metabolism labo
 
 Being involved academically in the field of cancer, and having a passion for medicine, led me to become a counselor for a student group called Camp Kesem, a student-led camp for the kids of cancer patients. As a committee leader, I developed the first ever Dance-a-thon fundraiser, combining my love for dance with my desire to raise awareness for our student organization. I, along with a group of peers, organized an all-night dance marathon and invited performers and dancers (including my very own dance teams) to raise money for Camp Kesem, and promote movement and joy through dance at MIT."
 
-![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1436910181448-B0HH2JVCTXVA1YNTVBZD/image-asset.png?format=original) ![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1436909695758-AB3084OCOFYO1SQR710B/image-asset.jpeg?format=original) ![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1436909933961-X6TNIBA8Q12CINYWEK3X/image-asset.jpeg?format=original) ![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1436910112288-W3LBBIJQBI3GCPEJE3GX/image-asset.jpeg?format=original)
+![](/images/general/image-asset.png?format=original) ![](/images/general/image-asset.jpeg?format=original) ![](/images/general/image-asset.jpeg?format=original) ![](/images/general/image-asset.jpeg?format=original)
 
 * * *
 

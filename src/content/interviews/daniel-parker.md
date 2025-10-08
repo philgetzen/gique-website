@@ -11,7 +11,7 @@ author: "Unknown"
 
 * * *
 
-![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1516684452371-JSUC973FFFZF2MPFUNJA/Fall+2017+Juilliard+Graduate+Student+Social+Speech.jpg?format=original)
+![](/images/general/fall-2017-juilliard-graduate-student-social-speech.jpg?format=original)
 
 ### Tell us about your background & how it led you to where you are today.
 
@@ -25,7 +25,7 @@ There are other experiences I have been so lucky to have. I got to spend a summe
 
 * * *
 
-![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1516684522178-85TA5ZOEX9EC0GE06J4I/Spring+2017+After+Concert+_Composition+for+Non-Majors_+Class.JPG?format=original)
+![](/images/general/spring-2017-after-concert-_composition-for-non-majors_-class.jpg?format=original)
 
 ### **How did you create your projects & what motivates you to work them? How do your projects combine science and art in innovative ways**?
 
@@ -63,7 +63,7 @@ I’d also say I am really optimistic and proud of our generation and how we are
 
 * * *
 
-[![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1516684791208-OPKAPYSGXD3JD3YARJ9C/daniel_parker.jpg?format=original)](http://www.northeastern.edu/spark/)
+[![](/images/general/daniel_parker.jpg?format=original)](http://www.northeastern.edu/spark/)
 
 > **[Click here to watch Daniel Parker's 2015 Performance](https://www.youtube.com/watch?v=wuBruYPYL7U) in a masterclass for Hung-Kuan Chen in Harris Concert Hall in Aspen, CO at the 2015 Aspen Musical Festival and School**
 

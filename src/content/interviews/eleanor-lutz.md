@@ -9,7 +9,7 @@ author: "Unknown"
 
 **Designer, Molecular Biologist, & Creator of [Tabletop Whale](http://www.tabletopwhale.com)**
 
-![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1439669729427-MTUV8G80JJP0J37A74P2/image-asset.jpeg?format=original) [![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1413671225787-W9WJE0CBKANWAT79EU1I/eleanor_lutz.jpg?format=original)](http://tabletopwhale.com/)
+![](/images/general/image-asset.jpeg?format=original) [![](/images/general/eleanor_lutz.jpg?format=original)](http://tabletopwhale.com/)
 
 ### **What inspired you to create your science illustration blog, Tabletop Whale?**
 
@@ -35,4 +35,4 @@ Check out one of her infographics below on Flight Videos Deconstructed.
 
 For more illustrations & information, visit [tabletopwhale.com](http://tabletopwhale.com/).
 
-[![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1413671339503-W38IXD0IT7DHG6J9V2V5/09-29-14.gif?format=original)](http://tabletopwhale.com/index.html)
+[![](/images/general/09-29-14.gif?format=original)](http://tabletopwhale.com/index.html)

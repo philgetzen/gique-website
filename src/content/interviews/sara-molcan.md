@@ -11,13 +11,13 @@ author: "Unknown"
 
 * * *
 
-![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1466390868993-TRJWHVIT2LCBPWTJILJP/image-asset.jpeg?format=original)
+![](/images/general/image-asset.jpeg?format=original)
 
 ### Tell us about your background & how it led you to where you are today.
 
 "During my BFA at Emily Carr University of Art & Design, I was challenged to address my fascination with painting the human form. I found this difficult as I have always communicated better through images than text, which is ironic given I also have a degree in English literature. I slowly began to make a connection between my paintings and the formation of identity. Since research is a strong skill for me, I dove headfirst into scientific journals trying to find a more substantial link. I was pulled into studies regarding the brain, memory, dreams, and identity.
 
-![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1466390802990-OJ7WAFUB78KVQUX0JDCA/image-asset.jpeg?format=original)
+![](/images/general/image-asset.jpeg?format=original)
 
 Our brains have the ability to rewrite our personal histories, a notion I found enthralling. We are also easily fooled - a dream about day-to-day life can easily be mistaken for a memory. These 'false memories' come to light when an event causes a sudden realization. This can be compared to being plunged into an ice bath. I found that the best way to replicate familiarity and strangeness in my work was through colour and subject matter. Colours that are familiar and welcoming, but subject matter that deals with something darker. I often deal with relationships, trauma, and mental illness in my work. I try to emphasize this in my paintings by playing with the idea of muddled psychology with the hint of facial features visible beneath clouds of colour and fervent brushstrokes."
 
@@ -31,7 +31,7 @@ Our brains have the ability to rewrite our personal histories, a notion I found 
 
 * * *
 
-![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1466390990467-49O2G4CBP893M3KTZDNW/image-asset.jpeg?format=original) ![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1466391457742-CI02CU7J394N02FAJYLN/image-asset.jpeg?format=original)
+![](/images/general/image-asset.jpeg?format=original) ![](/images/general/image-asset.jpeg?format=original)
 
 ### What keeps you passionate about science and art?
 
@@ -43,7 +43,7 @@ Our brains have the ability to rewrite our personal histories, a notion I found 
 
 "For me, being a gique means sharing my passion in interesting ways. Since colour is such a strong focus in my paintings, I have often received queries about the colours I use. I took that as opportunity to share something I am truly passionate about with a wider audience. Unexpectedly, it complemented my art practice more than I could ever dream of. As you now know, my work is tangled up with neuroscience and psychology. My paint mixes allow me to showcase the science of colour mixing, as well as create a solace to those with mental illnesses or those who need to cope with anxiety - something I was unaware of at the time, but hindsight is always 20/20, isn't it? Since mental health still carries a heavy stigma in society, I am happy to see that I can create a dialogue about it through my paint mixing. As for the science behind the colours themselves, it all comes from years upon years of colour theory and a thorough understanding of the colour wheel. Understanding where a pigment lands on the colour wheel will let you know how it will react when mixed with another. It's colour chemistry."
 
-![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1466391532334-4CZ6O1NPXDAOWBWUQXZ3/image10.JPG?format=original) ![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1466391564657-FFDB1U4JMQBDNBK5P8Z9/image-asset.jpeg?format=original) ![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1466391498610-DZW4SHAYKN8HWHRV49HA/image-asset.jpeg?format=original)
+![](/images/general/image10.jpg?format=original) ![](/images/general/image-asset.jpeg?format=original) ![](/images/general/image-asset.jpeg?format=original)
 
 * * *
 
@@ -53,7 +53,7 @@ Our brains have the ability to rewrite our personal histories, a notion I found 
 
 * * *
 
-![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1466391710636-EEF08XP4SDZT2TNMW1R3/image-asset.jpeg?format=original)
+![](/images/general/image-asset.jpeg?format=original)
 
 > "As an artist, I’m fascinated by memory and how it shapes our identity. Over time, your mind can play tricks on you: reformulating what a loved one looked like, romanticizing past relationships gone sour, and preserving parts of memory in little packages.,, As you lose sight of what a person looks like, your mind simply begins to fill in what could have been through a form of psychological portrait. My work particularly plays with the idea of muddled psychology with the hint of facial features visible beneath the clouds of colour and fervent brushstrokes."
 

@@ -11,7 +11,7 @@ author: "Unknown"
 
 * * *
 
-![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1491833069434-2XIG1GLFNR8J49DCJKKT/image-asset.png?format=original)
+![](/images/general/image-asset.png?format=original)
 
 ### Tell us about your background & how it led you to where you are today.
 
@@ -29,7 +29,7 @@ So, I decided to do something to make a change beyond my local nursing home. I s
 
 * * *
 
-![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1491833118865-E3J1G2BAJ2VUTES8MTQW/image-asset.png?format=original) ![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1491833271621-21SYKVHI2CJ78QK24BXJ/image-asset.png?format=original)
+![](/images/general/image-asset.png?format=original) ![](/images/general/image-asset.png?format=original)
 
 ### What motivates your work?
 
@@ -49,7 +49,7 @@ So, I decided to do something to make a change beyond my local nursing home. I s
 
 * * *
 
-![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1491832923963-YWSVBIOWFXDH47WEFVVK/image-asset.png?format=original)
+![](/images/general/image-asset.png?format=original)
 
 > So many elderly people have no one to care for them, no one to look after them, no one to love them. 16-year-old [high-school student Jacob Cramer](http://www.lovefortheelderly.org/meet-jacob.html), wanted to change that when he founded Love For The Elderly in December of 2013. Love For The Elderly is a global nonprofit organization whose mission is as simple as striving to provide "love for the elderly!" Cramer had always been passionate about giving back and helping others. He eagerly wanted to make a difference, and began thinking of what he could do to touch the lives of the elderly, a group which he felt could greatly benefit from additional tender, loving kindness. From this small idea, Love for the Elderly was born! Today, we operate as a 501(c)(3) nonprofit organization with one simple mission.
 

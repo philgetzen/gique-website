@@ -11,7 +11,7 @@ author: "Unknown"
 
 * * *
 
-![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1462548395020-OMOR1LWOSS4HSCKFSC9N/image-asset.jpeg?format=original) ![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1462548465899-MESOVRLCRMNFL8727VOI/image-asset.gif?format=original)
+![](/images/general/image-asset.jpeg?format=original) ![](/images/general/image-asset.gif?format=original)
 
 ### Tell us about your background & how it led you to where you are today.
 
@@ -19,7 +19,7 @@ author: "Unknown"
 
 * * *
 
-![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1462548424500-AN7G1W4BGENP4FNQUVC8/image-asset.jpeg?format=original)
+![](/images/general/image-asset.jpeg?format=original)
 
 ### What keeps you passionate about science and art?
 
@@ -27,7 +27,7 @@ author: "Unknown"
 
 * * *
 
-![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1462548437413-45HUWUHJNLYK8O3EUF1M/1962131_880697201966768_9102178266318591516_o.jpg?format=original)
+![](/images/general/1962131_880697201966768_9102178266318591516_o.jpg?format=original)
 
 ### What does being a gique mean to you?
 
@@ -41,6 +41,6 @@ author: "Unknown"
 
 * * *
 
-[![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1462548279602-8FGK5CT7RS9SU0C5Y2LB/image-asset.jpeg?format=original)](http://thecomaps.com)
+[![](/images/general/image-asset.jpeg?format=original)](http://thecomaps.com)
 
 > EcoMaps provides Beautifully Handcrafted Wooden Map Art in the form of pre-designed and custom wooden maps and coasters. Check our their inventory here: [http://thecomaps.com](http://thecomaps.com)

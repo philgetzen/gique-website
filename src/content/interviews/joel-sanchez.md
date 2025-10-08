@@ -11,7 +11,7 @@ Founder & Executive Director at [Legacy Volleyball Club and Legacy Athletics](ht
 
 * * *
 
-![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1441567804783-9U4ZOGIJ7TIC06DUARCR/image-asset.png?format=original)
+![](/images/general/image-asset.png?format=original)
 
 ### **Tell us about yourself.**
 
@@ -31,17 +31,17 @@ That’s my short story."
 
 * * *
 
-![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1441567649948-KKL209P7Y70NSBXHRUEP/image-asset.jpeg?format=original)
+![](/images/general/image-asset.jpeg?format=original)
 
 ### How have the projects you've worked on combined science & art?
 
-![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1441567677703-HZZ096FGOFQQBDP1L2JG/image-asset.jpeg?format=original)
+![](/images/general/image-asset.jpeg?format=original)
 
 "All of my ideas have come from the recognition of a need in my community. I currently work for Phipps Neighborhoods as a Program Director in the Soundview Area of the Bronx. I have been there for 6 years now and through surveys, conversations and simply watching them work, found out that these children, ages 5 to 21, had so much more in their minds than just basketball. With that In mind, I launched a “STEAM” (Science, Technology, Engineering, Art, Math) project at the site which has been a hit within the group!
 
 The idea is simple: Ask the children to imagine something they want and would love to bring to life then draw it.. It could be a car, a house, a friend, a sibling. After drawing it, they would then think about how to bring it to life. How big should it be. We thought them how to create a blue print with measurements and overall design. After a ton of trial and error (LOTS lol), we were ready for the next step. Using cardboard boxes from the meals we receive from the city, we would begin to shape these boxes into the items we wanted using the measurements and information from the blueprints. Eventually, the idea is to grab a cardboard box made car and make it move… Make it live! The dream: Robotics.
 
-![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1441567834717-UHA3K1OURFTRPSAMHMSA/image-asset.jpeg?format=original)
+![](/images/general/image-asset.jpeg?format=original)
 
 That short story is just one of the many things I had led in my time at Soundview. On a daily basis, I am directing an PBL (Project Based Learnig) / STEAM based after school program for children 5-12, academic enrichment and recreational program for 13-21, providing educational and life enhancing programming for adults up to 99. Additionally, I spend a lot of time with community stakeholders (Politicians, school officials, local businesses, city agencies) figuring ways to provide more for the underserved communities in the Bronx, once I am done there.
 
@@ -77,7 +77,7 @@ Dreams are a wonderful thing. You will never know unless you try. We only live O
 
 * * *
 
-[![](https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1441567419859-HS4XW7B3Z0ISCQPB1LO5/image-asset.png?format=original)](http://www.legacyvbc.com/)
+[![](/images/general/image-asset.png?format=original)](http://www.legacyvbc.com/)
 
 ## [Legacy Volleyball Club a non-profit 501 (c)(3) youth empowerment organization based out of the Bronx, New York established to promote the sport of volleyball to young athletes. We provide year-round volleyball training and youth programs, which help youth achieve their athletic, social and academic goals.](http://www.legacyvbc.com/)
 
