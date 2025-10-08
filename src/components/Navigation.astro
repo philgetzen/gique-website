@@ -31,8 +31,8 @@ const currentPath = Astro.url.pathname;
 <nav class="bg-white shadow-md sticky top-0 z-50" role="navigation" aria-label="Main navigation">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex justify-between items-center h-16">
-      <!-- Logo/Brand -->
-      <div class="flex-shrink-0">
+      <!-- Logo/Brand with Tagline -->
+      <div class="flex items-center gap-4">
         <a href="/">
           <img
             src="https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1427584820455-073G02X4TQY8TGOA6SFT/qigue_square-01.png?format=1500w"
@@ -40,6 +40,7 @@ const currentPath = Astro.url.pathname;
             class="h-10 w-10 object-contain"
           />
         </a>
+        <span class="hidden lg:block text-lg font-semibold text-gray-800">Building The Future with #STEAM</span>
       </div>
 
       <!-- Desktop Navigation -->

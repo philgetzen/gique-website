@@ -26,6 +26,41 @@ const teamMembers = [
     link: 'https://www.linkedin.com/pub/ashli-davis-polanco/90/607/b1'
   }
 ];
+
+const pastInterns = [
+  {
+    name: 'Gabriella Paquette',
+    title: 'Operations Intern',
+    tenure: 'Jan 2018 - August 2018',
+    school: 'Northeastern University',
+    image: 'https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1516680560414-2ENUKH32TDWXIXPE4ES3/Headshot.JPG?format=original',
+    bio: 'Gabby Paquette graduated from Northeastern University as a Health Science student. On campus, she was the Academic Chair for the Eta Kappa chapter of Kappa Delta Sorority, and a Senior Health Educator for Peer Health Exchange (PHE). In addition to teaching health education to 9th graders in underprivileged Boston Public Schools with PHE, she worked to improve pediatric health as a Clinical Assistant at Boston Children\'s Hospital. She has also worked as a Medical Assistant and Scribe at a Washington Square Dermatology. Accompanying her passion for medicine is a passion for promoting personal agency through engaging and valuable education programs.'
+  },
+  {
+    name: 'Gabrielle Rabadam',
+    title: 'Operations Intern',
+    tenure: 'Mar 2016 - August 2018',
+    school: 'Northeastern University',
+    image: 'https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1517684416692-PS7AE1GCSOOJYU3N7NM2/IMG_4573.jpg?format=original',
+    bio: 'Gabrielle Rabadam is a Northeastern University graduate in Chemical Engineering and Northeastern University Scholar. On campus, she mentored on behalf of Science Club for Girls and headed the Northeastern Chapter of the International Society of Pharmaceutical Engineers as president. Gabby worked at Moderna in the Rare Diseases group on the application of mRNA gene therapies to metabolic disorders. She has also worked at Ocular Therapeutix on their hydrogel protein delivery platform and conducted independent research in the Webster Nanomedicine Lab on the development of nanoscale drug release scaffolds. Beyond her technical research interests, Gabby is passionate about STEM education, distance running, and art as a tool for social change.'
+  },
+  {
+    name: 'Vanessa Gregorchik',
+    title: 'Communications Intern',
+    tenure: 'Aug 2015 - June 2016',
+    school: 'Northeastern University',
+    image: 'https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1443895449018-3M1340IDIBXI0N4N90BH/IMG_9467-3.jpg?format=original',
+    bio: 'Vanessa Gregorchik is an undergraduate student at Northeastern University where she is studying Interaction Design. She is originally from Louisville, Kentucky, where she was involved with her high school\'s yearbook and several independent magazines. At Northeastern, she is looking forward to getting involved with the campus music magazine and design studio. She is passionate about photography and graphic design and using them for a greater purpose.'
+  },
+  {
+    name: 'Annie Garcia',
+    title: 'Education Program Intern',
+    tenure: 'Nov 2015 - June 2016',
+    school: 'Wellesley College',
+    image: 'https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1449260084821-PK4WDE2DRGXMMSBU3YKF/image-asset.jpeg?format=original',
+    bio: 'Annie is an undergraduate student at Wellesley College where she is studying Environmental Studies and Environmental Engineering. She is from Laredo, Texas where she was actively involved in a local environmental organization and her high school\'s drama club. She hopes to one day enter the fields of energy and construction. Her passions lie with renewable design, environmental activism, sewing, and baking.'
+  }
+];
 ---
 
 <Layout title="About Us - Gique">
@@ -125,45 +160,29 @@ const teamMembers = [
 
       <hr class="my-12" />
 
-      <h2 class="text-3xl font-bold text-gray-900 mb-8">Past Interns</h2>
+      <h2 class="text-3xl font-bold text-gray-900 mb-12 text-center">Past Interns</h2>
 
-      <!-- Intern bios remain as markdown prose -->
-      <div class="space-y-12">
-        <div>
-          <img src="https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1516680560414-2ENUKH32TDWXIXPE4ES3/Headshot.JPG?format=original" alt="Gabriella Paquette" class="w-48 h-48 object-cover rounded-full mx-auto mb-4" />
-          <h3 class="text-xl font-bold text-gray-900 text-center">Gabriella Paquette</h3>
-          <p class="text-gray-600 text-center mb-2">Operations Intern</p>
-          <p class="text-gray-600 text-center mb-2">Jan 2018 - August 2018</p>
-          <p class="text-gray-600 text-center font-semibold mb-4">Northeastern University</p>
-          <p class="text-gray-700">Gabby Paquette graduated from Northeastern University as a Health Science student. On campus, she was the Academic Chair for the Eta Kappa chapter of Kappa Delta Sorority, and a Senior Health Educator for Peer Health Exchange (PHE). In addition to teaching health education to 9th graders in underprivileged Boston Public Schools with PHE, she worked to improve pediatric health as a Clinical Assistant at Boston Children's Hospital. She has also worked as a Medical Assistant and Scribe at a Washington Square Dermatology. Accompanying her passion for medicine is a passion for promoting personal agency through engaging and valuable education programs.</p>
-        </div>
+      <!-- Past Interns with same 2-column alternating layout -->
+      <div class="space-y-16">
+        {pastInterns.map((intern, index) => (
+          <div class={`grid grid-cols-1 md:grid-cols-2 gap-8 items-center ${index % 2 === 1 ? 'md:flex-row-reverse' : ''}`}>
+            {/* Image column */}
+            <div class={`${index % 2 === 1 ? 'md:order-2' : ''}`}>
+              <img
+                src={intern.image}
+                alt={intern.name}
+                class="w-64 h-64 object-cover rounded-full mx-auto shadow-lg"
+              />
+            </div>
 
-        <div>
-          <img src="https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1517684416692-PS7AE1GCSOOJYU3N7NM2/IMG_4573.jpg?format=original" alt="Gabrielle Rabadam" class="w-48 h-48 object-cover rounded-full mx-auto mb-4" />
-          <h3 class="text-xl font-bold text-gray-900 text-center">Gabrielle Rabadam</h3>
-          <p class="text-gray-600 text-center mb-2">Operations Intern</p>
-          <p class="text-gray-600 text-center mb-2">Mar 2016 - August 2018</p>
-          <p class="text-gray-600 text-center font-semibold mb-4">Northeastern University</p>
-          <p class="text-gray-700">Gabrielle Rabadam is a Northeastern University graduate in Chemical Engineering and Northeastern University Scholar. On campus, she mentored on behalf of Science Club for Girls and headed the Northeastern Chapter of the International Society of Pharmaceutical Engineers as president. Gabby worked at Moderna in the Rare Diseases group on the application of mRNA gene therapies to metabolic disorders. She has also worked at Ocular Therapeutix on their hydrogel protein delivery platform and conducted independent research in the Webster Nanomedicine Lab on the development of nanoscale drug release scaffolds. Beyond her technical research interests, Gabby is passionate about STEM education, distance running, and art as a tool for social change.</p>
-        </div>
-
-        <div>
-          <img src="https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1443895449018-3M1340IDIBXI0N4N90BH/IMG_9467-3.jpg?format=original" alt="Vanessa Gregorchik" class="w-48 h-48 object-cover rounded-full mx-auto mb-4" />
-          <h3 class="text-xl font-bold text-gray-900 text-center">Vanessa Gregorchik</h3>
-          <p class="text-gray-600 text-center mb-2">Communications Intern</p>
-          <p class="text-gray-600 text-center mb-2">Aug 2015 - June 2016</p>
-          <p class="text-gray-600 text-center font-semibold mb-4">Northeastern University</p>
-          <p class="text-gray-700">Vanessa Gregorchik is an undergraduate student at Northeastern University where she is studying Interaction Design. She is originally from Louisville, Kentucky, where she was involved with her high school's yearbook and several independent magazines. At Northeastern, she is looking forward to getting involved with the campus music magazine and design studio. She is passionate about photography and graphic design and using them for a greater purpose.</p>
-        </div>
-
-        <div>
-          <img src="https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1449260084821-PK4WDE2DRGXMMSBU3YKF/image-asset.jpeg?format=original" alt="Annie Garcia" class="w-48 h-48 object-cover rounded-full mx-auto mb-4" />
-          <h3 class="text-xl font-bold text-gray-900 text-center">Annie Garcia</h3>
-          <p class="text-gray-600 text-center mb-2">Education Program Intern</p>
-          <p class="text-gray-600 text-center mb-2">Nov 2015 - June 2016</p>
-          <p class="text-gray-600 text-center font-semibold mb-4">Wellesley College</p>
-          <p class="text-gray-700">Annie is an undergraduate student at Wellesley College where she is studying Environmental Studies and Environmental Engineering. She is from Laredo, Texas where she was actively involved in a local environmental organization and her high school's drama club. She hopes to one day enter the fields of energy and construction. Her passions lie with renewable design, environmental activism, sewing, and baking.</p>
-        </div>
+            {/* Bio column */}
+            <div class={`${index % 2 === 1 ? 'md:order-1' : ''}`}>
+              <h3 class="text-2xl font-bold text-gray-900 mb-2">{intern.name}</h3>
+              <p class="text-lg text-gray-600 mb-4">{intern.title}</p>
+              <p class="text-gray-700 leading-relaxed">{intern.bio}</p>
+            </div>
+          </div>
+        ))}
       </div>
 
       <hr class="my-12" />

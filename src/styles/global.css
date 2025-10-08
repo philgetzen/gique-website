@@ -1,2 +1,18 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
+
+/* Apply fonts */
+body {
+  font-family: 'Alike', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+}
+
+/* Raleway for navigation and UI elements */
+nav, button, .font-sans {
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+}

@@ -14,9 +14,6 @@ import Layout from '../components/Layout.astro';
       />
     </div>
 
-    <h1 class="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-      Building The Future with #STEAM
-    </h1>
     <p class="text-xl md:text-2xl text-gray-700 max-w-3xl mx-auto mb-8">
       Empowering youth through hands-on learning in science, tech, engineering, art & math (STEAM).
     </p>
@@ -24,45 +21,106 @@ import Layout from '../components/Layout.astro';
 
   <!-- Introduction -->
   <div class="max-w-4xl mx-auto mb-16">
-    <p class="text-xl text-gray-700 text-center leading-relaxed">
+    <p class="text-s text-gray-700 text-center leading-relaxed">
       Gique is a Boston-based nonprofit 501(c)(3) organization which exists to inspire and educate youth in STEAM. Through our after-school programs and educational workshops, we are building a community full of the next great thinkers, leaders, & makers.
     </p>
   </div>
 
-  <!-- STEAM Love Section with Image -->
-  <div class="mb-16">
-    <div class="text-center mb-8">
-      <h2 class="text-4xl font-bold text-gray-900 mb-6">We Love #STEAM.</h2>
+  <hr class="border-t border-gray-300 mb-16" />
+
+  <!-- Research Publication Callout with STEAM Diagram -->
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-12 max-w-6xl mx-auto">
+    <!-- Left: STEAM Diagram -->
+    <div>
       <img
         src="https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1501645375363-3IXS01DPN1133SLD7EFT/image-asset.png?format=1500w"
-        alt="STEAM Education"
-        class="mx-auto max-w-2xl w-full h-auto rounded-lg shadow-lg mb-6"
+        alt="STEAM Education Diagram"
+        class="w-full h-auto rounded-lg shadow-lg"
       />
-      <div class="max-w-3xl mx-auto bg-blue-50 rounded-lg p-6">
-        <p class="text-lg text-gray-800 font-medium">
-          Check Out Our Research Publication<br />
-          <a href="http://www.sciartmagazine.com/growing-youth-curiosity-and-self-confidence-in-steam-with-gique.html" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-700 underline">
+    </div>
+
+    <!-- Right: Research Publication Callout -->
+    <div class="flex items-center">
+      <div class="bg-gradient-to-br from-blue-50 to-purple-50 border-2 border-blue-600 rounded-xl p-8 text-center shadow-xl">
+        <h3 class="text-2xl font-bold text-gray-900 mb-4">Check Out Our Research Publication</h3>
+        <p class="text-xl text-gray-800 font-medium leading-relaxed mb-6">
+          <a href="http://www.sciartmagazine.com/growing-youth-curiosity-and-self-confidence-in-steam-with-gique.html" target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:text-blue-800 underline decoration-2">
             "Growing Youth Curiosity and Self-Confidence in STEAM with Gique"
-          </a>
-          <br />in SciArt Magazine!
+          </a><span class="text-lg"> in SciArt Magazine!</span>
         </p>
+        <a href="http://www.sciartmagazine.com/growing-youth-curiosity-and-self-confidence-in-steam-with-gique.html" target="_blank" rel="noopener noreferrer" class="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700 transition-colors shadow-md">
+          Read The Full Article →
+        </a>
       </div>
     </div>
   </div>
 
-  <!-- Innovation Section -->
-  <div class="bg-blue-50 rounded-lg p-12 mb-16">
-    <h2 class="text-4xl font-bold text-gray-900 mb-6 text-center">We Believe Education Fuels Innovation.</h2>
-    <p class="text-xl text-gray-700 text-center max-w-4xl mx-auto leading-relaxed">
-      By providing hands-on learning opportunities to youth, we are working to build a STEAM-powered community of the next great thinkers, leaders, and makers.
-    </p>
+  <hr class="border-t border-gray-300 mb-16" />
+
+  <!-- 3 Program Photos Row -->
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+    <img
+      src="https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1456974785430-QA11WBLOF1A8SAKM5OKH/IMG_9980.jpg?format=1000w"
+      alt="Program Photo 2"
+      class="w-full h-auto rounded-lg shadow-lg"
+    />
+    <img
+      src="https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1456974812590-JVD2GNZKT2J44Q7NFD21/IMG_9627.jpg?format=750w"
+      alt="Program Photo 1"
+      class="w-full h-auto rounded-lg shadow-lg"
+    />
+    <img
+      src="https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1456974839734-580L1VK1KVHM4W5IPRZS/image-asset.jpeg?format=1000w"
+      alt="Program Photo 3"
+      class="w-full h-auto rounded-lg shadow-lg"
+    />
   </div>
+
+  <hr class="border-t border-gray-300 mb-16" />
+
+  <!-- We Love STEAM and Education Fuels Innovation (2 columns) -->
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16 max-w-6xl mx-auto">
+    <!-- Left Column: We Love STEAM -->
+    <div class="text-center">
+      <h3 class="text-2xl font-bold text-gray-900 mb-4">We Love #STEAM.</h3>
+      <p class="text-gray-700 leading-relaxed mb-2">
+        We believe that closing the divide between art, science & technology will lead to greater innovation and a more hopeful tomorrow.
+      </p>
+      <p class="text-gray-700 leading-relaxed">
+        Learn more about STEAM at <a href="http://stemtosteam.org" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-700 underline">stemtosteam.org</a>
+      </p>
+    </div>
+
+    <!-- Right Column: We Believe Education Fuels Innovation -->
+    <div class="text-center">
+      <h3 class="text-2xl font-bold text-gray-900 mb-4">We Believe Education Fuels Innovation.</h3>
+      <p class="text-gray-700 leading-relaxed">
+        By providing hands-on learning opportunities to youth, we are working to build a STEAM-powered community of the next great thinkers, leaders, and makers.
+      </p>
+    </div>
+  </div>
+
+  <hr class="border-t border-gray-300 mb-16" />
 
   <!-- Science Can Dance Section -->
   <div class="mb-16">
-    <div class="text-center mb-8">
-      <h2 class="text-3xl font-bold text-gray-900 mb-4">Learn About Our Science Can DANCE! Program</h2>
+    <!-- Top Row: Logo (1 col) + Text (4 cols) -->
+    <div class="grid grid-cols-1 lg:grid-cols-5 gap-8 items-center mb-8">
+      <div class="flex justify-center lg:justify-start">
+        <img
+          src="https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1472581797194-ZG5NQIB61228E5OAZ7TP/image-asset.png?format=500w"
+          alt="Science Can Dance Logo"
+          class="h-32 w-auto"
+        />
+      </div>
+      <div class="lg:col-span-4 text-center">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">Learn About Our Science Can DANCE! Program</h2>
+        <p class="text-lg text-gray-700">
+          We combine science education with dance to inspire middle school students through creative, hands-on learning experiences.
+        </p>
+      </div>
     </div>
+    <!-- Bottom Row: Videos -->
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
       <div class="aspect-video">
         <iframe
@@ -83,11 +141,27 @@ import Layout from '../components/Layout.astro';
     </div>
   </div>
 
+  <hr class="border-t border-gray-300 mb-16" />
+
   <!-- After-School Programs Section -->
   <div class="mb-16">
-    <div class="text-center mb-8">
-      <h2 class="text-3xl font-bold text-gray-900 mb-4">Learn About Our After-School Programs</h2>
+    <!-- Top Row: Logo (1 col) + Text (4 cols) -->
+    <div class="grid grid-cols-1 lg:grid-cols-5 gap-8 items-center mb-8">
+      <div class="flex justify-center lg:justify-start">
+        <img
+          src="https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1441332922004-VGNABOSRB67JV141V4GP/image-asset.jpeg?format=750w"
+          alt="Boys & Girls Clubs of Dorchester"
+          class="h-32 w-auto"
+        />
+      </div>
+      <div class="lg:col-span-4 text-center">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">Learn About Our After-School Programs</h2>
+        <p class="text-lg text-gray-700">
+          We engage middle school students in hands-on STEAM learning through our weekly after-school programs at the Boys & Girls Clubs of Dorchester.
+        </p>
+      </div>
     </div>
+    <!-- Bottom Row: Videos -->
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
       <div class="aspect-video">
         <iframe
@@ -97,13 +171,18 @@ import Layout from '../components/Layout.astro';
           allowfullscreen
         ></iframe>
       </div>
-      <img
-        src="https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1456974812590-JVD2GNZKT2J44Q7NFD21/IMG_9627.jpg?format=1500w"
-        alt="After-School Programs"
-        class="w-full h-auto rounded-lg shadow-lg"
-      />
+      <div class="aspect-video">
+        <iframe
+          src="https://www.youtube.com/embed/pZSTOFtjfPM"
+          class="w-full h-full rounded-lg shadow-lg"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
     </div>
   </div>
+
+  <hr class="border-t border-gray-300 mb-16" />
 
   <!-- All Programs Grid -->
   <div class="mb-16">
@@ -140,6 +219,7 @@ import Layout from '../components/Layout.astro';
       </a>
     </div>
   </div>
+
 
   <!-- STEAM Resources CTA -->
   <div class="text-center bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg p-12 mb-16">
