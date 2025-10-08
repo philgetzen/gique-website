@@ -1,9 +1,5 @@
 ---
 import Layout from '../components/Layout.astro';
-import { getEntry } from 'astro:content';
-
-const entry = await getEntry('pages', 'about-us');
-const { Content } = await entry.render();
 
 const teamMembers = [
   {
