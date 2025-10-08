@@ -1,11 +1,103 @@
 ---
 import Layout from '../components/Layout.astro';
-
 ---
 
 <Layout title="After-School Programs - Gique">
-  <article class="prose prose-lg max-w-none">
-    <h1>After-School Programs</h1>
-    <p>Information about our after-school programs coming soon.</p>
-  </article>
+  <div class="max-w-6xl mx-auto">
+    <!-- Header Section with Logo -->
+    <div class="mb-12">
+      <div class="grid grid-cols-1 lg:grid-cols-5 gap-8 items-center mb-8">
+        <div class="flex justify-center lg:justify-start">
+          <img
+            src="https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1441332922004-VGNABOSRB67JV141V4GP/image-asset.jpeg?format=750w"
+            alt="Boys & Girls Clubs of Dorchester"
+            class="h-32 w-auto"
+          />
+        </div>
+        <div class="lg:col-span-4 text-center">
+          <h1 class="text-4xl font-bold text-gray-900 mb-4">Gique's After-School Programs</h1>
+          <p class="text-xl text-gray-700">
+            Gique designs after-school program curricula & resources for youth to explore their interests and skills in art, science, and technology.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <hr class="border-t border-gray-300 my-8" />
+
+    <!-- Main Programs Section -->
+    <div class="mb-12">
+      <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">Our Programs</h2>
+
+      <!-- Fall Program -->
+      <div class="mb-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          <div>
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">Fall Program: Hands-On STEAM</h3>
+            <p class="text-lg text-gray-700 mb-4">
+              Our Fall program provides hands-on STEAM learning experiences that engage students beyond the classroom. <a href="/hands-on-steam-2015" class="text-blue-600 hover:text-blue-700 underline">Piloted at the Boys & Girls Clubs of Dorchester</a>, this program helps students explore their interests and develop new skills in science, technology, engineering, art, and math.
+            </p>
+          </div>
+          <div>
+            <img
+              src="https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1451945245505-291S8NE7ZPU8WTN70M23/image-asset.jpeg"
+              alt="Hands-On STEAM Program"
+              class="w-full h-auto rounded-lg shadow-lg"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Spring Program -->
+      <div class="mb-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          <div class="md:order-2">
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">Spring Program: #HackDorchester Challenge</h3>
+            <p class="text-lg text-gray-700 mb-4">
+              Our Spring program, the #HackDorchester Challenge, empowers students to become problem solvers and innovators. <a href="/hack-dorchester-2016" class="text-blue-600 hover:text-blue-700 underline">Piloted at the Boys & Girls Clubs of Dorchester</a>, this program encourages creative thinking and collaborative learning.
+            </p>
+          </div>
+          <div class="md:order-1">
+            <img
+              src="https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1452355233826-6NOLGMSRV3DFYH590Q9N/image-asset.jpeg"
+              alt="#HackDorchester Challenge"
+              class="w-full h-auto rounded-lg shadow-lg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="border-t border-gray-300 my-8" />
+
+    <!-- Videos Section -->
+    <div class="mb-12">
+      <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">See Our Programs in Action</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="aspect-video">
+          <iframe
+            src="https://www.youtube.com/embed/wvHUKKO232I"
+            class="w-full h-full rounded-lg shadow-lg"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="aspect-video">
+          <iframe
+            src="https://www.youtube.com/embed/pZSTOFtjfPM"
+            class="w-full h-full rounded-lg shadow-lg"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mission Statement -->
+    <div class="prose prose-lg max-w-none mb-12">
+      <p class="text-lg text-gray-700 text-center italic">
+        We engage middle school students in hands-on STEAM learning through our weekly after-school programs, helping them discover their potential as the next generation of thinkers, leaders, and makers.
+      </p>
+    </div>
+  </div>
 </Layout>

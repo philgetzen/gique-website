@@ -1,11 +1,61 @@
 ---
 import Layout from '../components/Layout.astro';
-
 ---
 
 <Layout title="Fab Festival - Gique">
-  <article class="prose prose-lg max-w-none">
-    <h1>Fab Festival</h1>
-    <p>Information about our Fab Festival program coming soon.</p>
-  </article>
+  <div class="max-w-6xl mx-auto">
+    <!-- Header: Logo and Title in 2 columns -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mb-12">
+      <!-- Left: Fab 11 Logo (smaller) -->
+      <div class="flex justify-center md:justify-start">
+        <img
+          src="https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1442187462000-9AVZ4NHOXICJU8FM9S95/image-asset.jpeg"
+          alt="Fab Festival FAB11 Logo"
+          class="w-100 h-auto"
+        />
+      </div>
+
+      <!-- Right: Title and Description -->
+      <div>
+        <h1 class="text-3xl font-bold text-gray-900 mb-4">Fab Festival | FAB11</h1>
+        <p class="text-base text-gray-700 leading-relaxed">
+          We had a great time at <a href="http://www.fab11.org/fab-festival/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-700 underline">Fab Fest 2015</a> teaching about how 3D Printers work through dance choreography and body movement! This was one of a kind a celebration of the global fab lab community! Eleven years and over 500 fab labs later, the <a href="https://www.fablabs.io/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-700 underline">International Fab Lab Network</a> returned to Boston — its birthplace. Fab labs are been democratizing access to the tools for technical invention, empowering individuals to grow beyond consumers to become citizens who "make almost anything." The weeklong Fab Fest connected local and international innovators to provide hands-on educational and entertaining experiences for everyone.
+        </p>
+      </div>
+    </div>
+    
+    <hr class="border-t border-gray-300 my-8" />
+
+    <!-- Single Column Layout -->
+    <div>
+      <!-- Vimeo Video Embed -->
+      <div style="padding:56.25% 0 0 0;position:relative;" class="mb-8">
+        <iframe src="https://player.vimeo.com/video/139154117?h=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <script src="https://player.vimeo.com/api/player.js"></script>
+
+      <hr class="border-t border-gray-300 my-8" />
+
+      <!-- Photos Section -->
+      <div>
+        <h3 class="text-lg font-bold text-gray-900 mb-3">Photos</h3>
+        <p class="text-sm text-gray-700 mb-4">Check out our Facebook album from Fab11!</p>
+
+        <!-- Facebook Album Embed -->
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0"></script>
+
+        <div class="fb-post"
+             data-href="https://www.facebook.com/media/set/?set=a.700402570091313&type=3"
+             data-width="500"
+             data-show-text="true">
+        </div>
+
+        <!-- Fallback link -->
+        <p class="text-sm text-gray-700 mt-4">
+          See the Facebook album <a href="https://www.facebook.com/media/set/?set=a.700402570091313&type=3" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-700 underline font-semibold">here</a>.
+        </p>
+      </div>
+    </div>
+  </div>
 </Layout>

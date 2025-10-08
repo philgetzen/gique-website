@@ -1,11 +1,180 @@
 ---
 import Layout from '../components/Layout.astro';
-
 ---
 
 <Layout title="Typography - Gique">
-  <article class="prose prose-lg max-w-none">
-    <h1>Typography</h1>
-    <p>Information about our Typography program coming soon.</p>
-  </article>
+  <div class="max-w-6xl mx-auto">
+    <!-- Header: Title and Cambridge Science Festival Logo -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start mb-4">
+      <!-- Left: Title and Introduction -->
+      <div>
+        <h1 class="text-3xl font-bold text-gray-900 mb-6">Art & Science of Typography</h1>
+        <p class="text-base text-gray-700 leading-relaxed mb-8">
+          Fonts may seem like nothing more than the clothes that words wear, but they actually play a crucial role in how our brains process information.
+        </p>
+
+        <!-- About the Typography Booth -->
+        <h2 class="text-2xl font-bold text-gray-900 mb-4">About the Typography Booth</h2>
+        <p class="text-base text-gray-700 mb-6">
+          Gique's Art & Science of Typography booth is an interactive learning experience that enables families to discover the fascinating intersection of design, psychology, and communication through typography. Our booth has been featured at Cambridge Science Festivals from 2014-2016, engaging thousands of learners of all ages.
+        </p>
+      </div>
+
+      <!-- Right: Cambridge Science Festival Logo -->
+      <div class="flex justify-center md:justify-end">
+        <img
+          src="https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1454896143680-6RRXZGDAEM7CK79V9O20/image-asset.jpeg"
+          alt="Cambridge Science Festival Logo"
+          class="w-80 h-auto"
+        />
+      </div>
+    </div>
+
+    <!-- Main Content Section -->
+    <div>
+
+        <!-- What You'll Learn -->
+        <div class="bg-blue-50 rounded-lg p-4 mb-8">
+          <h3 class="text-xl font-bold text-gray-900 mb-3">What You'll Learn</h3>
+          <p class="text-sm text-gray-700 mb-3">
+            Typography is more than just visual design - it's a complex cognitive process. At our booth, participants discover how:
+          </p>
+          <ul class="list-disc pl-6 text-sm text-gray-700 space-y-1">
+            <li>Different fonts affect reading speed and comprehension</li>
+            <li>Typography influences emotions and perception</li>
+            <li>Letter shapes are constructed and designed</li>
+            <li>Font choices impact accessibility and communication</li>
+            <li>Design principles apply to everyday text we read</li>
+          </ul>
+        </div>
+
+                <hr class="border-t border-gray-300 my-8" />
+
+
+        <!-- Interactive Activities -->
+        <h2 class="text-2xl font-bold text-gray-900 mb-4 mt-8">Interactive Activities</h2>
+        <p class="text-base text-gray-700 mb-4">
+          Our Typography booth features three types of engaging, hands-on experiences:
+        </p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+          <div class="bg-gray-50 rounded-lg p-4">
+            <h3 class="text-base font-bold text-gray-900 mb-2">Learning Activities</h3>
+            <p class="text-sm text-gray-700">
+              Explore typography concepts through visual demonstrations and interactive displays that reveal how fonts work.
+            </p>
+          </div>
+          <div class="bg-gray-50 rounded-lg p-4">
+            <h3 class="text-base font-bold text-gray-900 mb-2">iPad Games</h3>
+            <p class="text-sm text-gray-700">
+              Play interactive games that teach typography principles through fun, engaging digital experiences.
+            </p>
+          </div>
+          <div class="bg-gray-50 rounded-lg p-4">
+            <h3 class="text-base font-bold text-gray-900 mb-2">Font Creation</h3>
+            <p class="text-sm text-gray-700">
+              Design your own letters and fonts, learning the artistic and technical process behind typeface design.
+            </p>
+          </div>
+        </div>
+
+
+                <!-- Typography Screenshots -->
+        <div class=" gap-4 mb-8">
+          <img
+            src="https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1399968831195-4H689G9UX883XHTFNA5K/Screen+Shot+2014-05-13+at+4.05.59+AM.png"
+            alt="Typography Activity Screenshot 1"
+            class="w-3/4 h-auto rounded-lg shadow-lg mx-auto"
+          />
+        </div>
+
+                        <hr class="border-t border-gray-300 my-8" />
+
+
+        <!-- Event History -->
+        <h2 class="text-2xl font-bold text-gray-900 mb-4 mt-8">Event History</h2>
+        <p class="text-base text-gray-700 mb-4">
+          Our Typography booth has been a featured attraction at multiple Cambridge Science Festivals:
+        </p>
+        <ul class="list-disc pl-6 text-sm text-gray-700 space-y-1 mb-8">
+          <li><strong>Cambridge Science Festival 2016</strong> - Science Carnival & Robot Zoo</li>
+          <li><strong>Cambridge Science Festival 2015</strong> - Science Carnival & Robot Zoo</li>
+          <li><strong>Cambridge Science Festival 2014</strong> - Science Carnival & Robot Zoo</li>
+        </ul>
+
+                        <hr class="border-t border-gray-300 my-8" />
+
+
+        <!-- The Science Behind Typography -->
+        <div class="bg-blue-50 rounded-lg p-6 mb-8">
+          <h3 class="text-xl font-bold text-gray-900 mb-3">The Science Behind Typography</h3>
+          <p class="text-base text-gray-700 mb-4">
+            Typography is a perfect example of how art and science intersect. The fonts we choose affect:
+          </p>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <h4 class="text-base font-bold text-gray-900 mb-1">Cognitive Processing</h4>
+              <p class="text-sm text-gray-700">
+                Our brains process different fonts at different speeds. Legible fonts improve reading comprehension and reduce cognitive load.
+              </p>
+            </div>
+            <div>
+              <h4 class="text-base font-bold text-gray-900 mb-1">Emotional Response</h4>
+              <p class="text-sm text-gray-700">
+                Font choices evoke emotions and set tone. A playful font creates a different feeling than a formal serif typeface.
+              </p>
+            </div>
+            <div>
+              <h4 class="text-base font-bold text-gray-900 mb-1">Accessibility</h4>
+              <p class="text-sm text-gray-700">
+                Typography decisions impact readability for people with visual impairments, dyslexia, and other accessibility needs.
+              </p>
+            </div>
+            <div>
+              <h4 class="text-base font-bold text-gray-900 mb-1">Communication</h4>
+              <p class="text-sm text-gray-700">
+                The way text looks affects how the message is received. Typography is a visual language that enhances written communication.
+              </p>
+            </div>
+          </div>
+        </div>
+
+                <hr class="border-t border-gray-300 my-8" />
+
+
+      <!-- Photos Section -->
+      <div class="mt-8">
+        <h2 class="text-2xl font-bold text-gray-900 mb-4">Photos</h2>
+        <p class="text-base text-gray-700 mb-6">
+          We've had a great time at the 2014 — 2016 <a href="https://www.cambridgesciencefestival.org" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-700 underline">Cambridge Science Festival</a>s teaching families about the art & science of typography! Check out the Facebook albums from our appearance at the <a href="https://www.facebook.com/media/set/?set=a.469431739855065.1073741828.389326787865561&type=3" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-700 underline">2014</a> and <a href="https://www.facebook.com/media/set/?set=a.649888295142741.1073741839.389326787865561&type=3" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-700 underline">2015</a> CSF Science Carnivals & Robot Zoos below.
+        </p>
+
+        <!-- Facebook Page Plugin -->
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0"></script>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+          <!-- 2015 Album -->
+          <div class="overflow-hidden">
+            <div class="fb-post"
+                 data-href="https://www.facebook.com/media/set/?set=a.649888295142741&type=3"
+                 data-width="500">
+            </div>
+          </div>
+
+          <!-- 2014 Album -->
+          <div class="overflow-hidden mt-8 md:mt-0">
+            <div class="fb-post"
+                 data-href="https://www.facebook.com/media/set/?set=a.469431739855065&type=3"
+                 data-width="500">
+            </div>
+          </div>
+        </div>
+
+        <!-- Fallback link -->
+        <p class="text-sm text-gray-700 mt-4">
+          See our Facebook page <a href="https://www.facebook.com/giqueorg" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-700 underline">here</a>.
+        </p>
+      </div>
+    </div>
+  </div>
 </Layout>

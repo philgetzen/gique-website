@@ -1,0 +1,195 @@
+---
+import Layout from '../components/Layout.astro';
+---
+
+<Layout title="#HackDorchester Challenge 2016 - Gique">
+  <div class="max-w-6xl mx-auto">
+    <!-- Hero Section: Logo and Title (Single Column) -->
+    <div class="text-center mb-12">
+      <img
+        src="https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1452355104875-4AOAAXC8IOXJ1O30ZVA2/HackDorchester_sq.png?format=2500w"
+        alt="Hack Dorchester Logo"
+        class="w-full max-w-md mx-auto mb-6"
+      />
+      <h1 class="text-4xl font-bold text-gray-900 mb-2">Spring 2016 Challenge</h1>
+      <p class="text-xl text-gray-700">at the Boys & Girls Clubs of Dorchester</p>
+    </div>
+
+    <!-- 2-Column Layout: Pitch Night Poster (left) and Program Info (right) -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+      <!-- Left Column: Event Poster -->
+      <div>
+        <img
+          src="https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1458844390479-09UWQAP5LMUC9KBL71LH/image-asset.jpeg?format=2500w"
+          alt="Hack Dorchester Project Pitch Night Poster"
+          class="w-full rounded-lg shadow-lg"
+        />
+      </div>
+
+      <!-- Right Column: Program Info Box -->
+      <div>
+        <div class="bg-white border-2 border-gray-200 rounded-lg p-8 h-full flex flex-col">
+          <h3 class="text-xl font-bold text-gray-900 mb-6">PROGRAM INFO</h3>
+          <p class="text-sm text-gray-700 mb-6">
+            In Spring 2016, Gique after-school program students participated in their first-ever #HackDorchester Challenge at the Boys & Girls Clubs of Dorchester. Each team was matched with a <strong>local mentor</strong> and provided with a budget to design and prototype a project which addressed a problem in their community as one of the following categories: <strong>Housing & Employment, Climate Change, Education, Citizenship, and Public Health</strong>.
+          </p>
+          <p class="text-sm text-gray-700 mb-6">
+            The challenge culminated in <strong>final pitch presentations on Tuesday April 26th, from 7:00-8:00 PM</strong> at the Boys & Girls Clubs of Dorchester McLaughlin Building (4th floor). This event will be free & open to the public. Food & refreshments will be served.
+          </p>
+          <h3 class="text-lg font-bold text-gray-900 mb-4">Project Categories</h3>
+          <ul class="list-disc pl-6 text-sm text-gray-700 space-y-2 mb-6">
+            <li>Housing & Employment</li>
+            <li>Climate Change</li>
+            <li>Education</li>
+            <li>Citizenship</li>
+            <li>Public Health</li>
+          </ul>
+        </div>
+      </div>        
+    </div>
+
+    <!-- Video Section -->
+    <div class="mb-12">
+      <h2 class="text-2xl font-bold text-gray-900 mb-6 text-center">Program Video</h2>
+      <div class="aspect-video max-w-4xl mx-auto">
+        <iframe
+          src="https://www.youtube.com/embed/pZSTOFtjfPM"
+          class="w-full h-full rounded-lg shadow-lg"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+
+    <!-- Mentors Section -->
+    <div class="mb-12">
+      <h2 class="text-2xl font-bold text-gray-900 mb-6">PROGRAM MENTORS:</h2>
+      <div class="space-y-8">
+        <!-- Katy Ma -->
+        <div class="flex gap-6 items-start">
+          <img
+            src="https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1454898149196-43B7XVBVFA4ZOGFA0W4J/image-asset.jpeg?format=2500w"
+            alt="Katy Ma"
+            class="w-32 h-32 rounded-lg object-cover flex-shrink-0"
+          />
+          <div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2">Katy Ma</h3>
+            <p class="text-sm text-gray-700 leading-relaxed">
+              Katy is originally from Philadelphia and is now a sophomore at Wellesley College, studying Media Arts & Sciences in combination of computer science, art, and design. She loves photography, coding, designing media and web interfaces. Fun fact: Katy has a Pomeranian puppy named Maya!
+            </p>
+          </div>
+        </div>
+
+        <!-- Jesslyn Tannady -->
+        <div class="flex gap-6 items-start">
+          <img
+            src="https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1454898084379-5VFTWJ41RIWT84B8NYVW/pic4.png?format=2500w"
+            alt="Jesslyn Tannady"
+            class="w-32 h-32 rounded-lg object-cover flex-shrink-0"
+          />
+          <div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2">Jesslyn Tannady</h3>
+            <p class="text-sm text-gray-700 leading-relaxed">
+              Jesslyn is originally from Jakarta, Indonesia and is currently double majoring in Computer Science and Media Arts & Science at Wellesley College. When she's not in class, you'll probably find her drawing, playing (and making) video games, tinkering with virtual reality, and 3D printing!
+            </p>
+          </div>
+        </div>
+
+        <!-- Sarah Babski -->
+        <div class="flex gap-6 items-start">
+          <img
+            src="https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1457919887650-7ULY7LTTRQ9AROKJWXZQ/image-asset.png?format=1000w"
+            alt="Sarah Babski"
+            class="w-32 h-32 rounded-lg object-cover flex-shrink-0"
+          />
+          <div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2">Sarah Babski</h3>
+            <p class="text-sm text-gray-700 leading-relaxed">
+              Sarah Babski is a Northeastern University student (18') majoring in Computer Science and Interactive Media, originally from New York City.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Entrepreneurship Workshop Mentors -->
+    <div class="mb-12">
+      <h2 class="text-2xl font-bold text-gray-900 mb-6">Entrepreneurship Workshop Mentors</h2>
+      <p class="text-base text-gray-700 mb-6">
+        Students received guidance from experienced entrepreneurs and tech professionals who shared their expertise in building successful ventures.
+      </p>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div class="bg-gray-50 rounded-lg p-4">
+          <h4 class="font-bold text-gray-900 mb-1">Nikita Virani</h4>
+          <p class="text-sm text-gray-700">CEO of Wizdy</p>
+        </div>
+        <div class="bg-gray-50 rounded-lg p-4">
+          <h4 class="font-bold text-gray-900 mb-1">Melissa James</h4>
+          <p class="text-sm text-gray-700">CEO of The Tech Connection</p>
+        </div>
+        <div class="bg-gray-50 rounded-lg p-4">
+          <h4 class="font-bold text-gray-900 mb-1">Valerie Basnight</h4>
+          <p class="text-sm text-gray-700">CEO of LIR Productions</p>
+        </div>
+        <div class="bg-gray-50 rounded-lg p-4">
+          <h4 class="font-bold text-gray-900 mb-1">Jamila Smith</h4>
+          <p class="text-sm text-gray-700">CEO of Beldwell</p>
+        </div>
+        <div class="bg-gray-50 rounded-lg p-4">
+          <h4 class="font-bold text-gray-900 mb-1">Mitch Gaynor</h4>
+          <p class="text-sm text-gray-700">Customer Success Ninja at Dispatch</p>
+        </div>
+        <div class="bg-gray-50 rounded-lg p-4">
+          <h4 class="font-bold text-gray-900 mb-1">Mike Demarais</h4>
+          <p class="text-sm text-gray-700">Founder at Handprint</p>
+        </div>
+        <div class="bg-gray-50 rounded-lg p-4">
+          <h4 class="font-bold text-gray-900 mb-1">Diana Vertus</h4>
+          <p class="text-sm text-gray-700">CEO at Exquisite Design Concepts</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sponsoring Organizations -->
+    <div class="mb-12">
+      <h3 class="text-2xl font-bold text-gray-900 mb-8 text-center">Sponsored By</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <!-- Boys & Girls Clubs of Dorchester -->
+        <div class="flex justify-center">
+          <img
+            src="https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1451944692576-RUEIYOF168UM73Q0N5RG/image-asset.jpeg?format=2500w"
+            alt="Boys & Girls Clubs of Dorchester"
+            class="w-full max-w-sm h-auto"
+          />
+        </div>
+
+        <!-- Roxbury Innovation Center -->
+        <div class="flex justify-center">
+          <img
+            src="https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1451944660495-W9Q4ZONVFTLO88OZ2ZQ0/image-asset.png?format=2500w"
+            alt="The Roxbury Innovation Center"
+            class="w-full max-w-sm h-auto"
+          />
+        </div>
+
+        <!-- The Tech Connection -->
+        <div class="flex justify-center">
+          <img
+            src="https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1453825595065-D4WW2N7ZUXXSAWX75ISM/d0880eb3c1_Op1-01+%283%29.png?format=2500w"
+            alt="The Tech Connection"
+            class="w-full max-w-sm h-auto"
+          />
+        </div>
+
+        <!-- Black Tech Boston Meetup -->
+        <div class="flex justify-center">
+          <img
+            src="https://images.squarespace-cdn.com/content/v1/525f99bee4b09c141b6f8b0c/1453825553316-PJPBG9S0AS4O4XXLL95K/Black_Tech_Boston_Meetup01+%288%29+%281%29.png?format=2500w"
+            alt="BlackTechBoston Meetup - Tech is the new black"
+            class="w-full max-w-sm h-auto"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>
