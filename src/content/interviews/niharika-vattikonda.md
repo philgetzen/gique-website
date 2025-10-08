@@ -13,7 +13,7 @@ author: "Unknown"
 
 ### Tell us about your background & how it led you to where you are today.
 
-![](/images/general/image-asset.jpeg?format=original)
+![](/images/general/image-asset-1459707673610-DNIWH08L7G8X1O63MDVU.jpeg?format=original)
 
 "Growing up, I was very fortunate to have such incredible exposure to STEM and computer science, in particular. Although coding and programming weren’t taught in elementary and middle school, my parents, who are both software engineers, got me started on Scratch, Javascript, and HTML - without that early exposure, I might have never chosen to pursue computer science. However, it wasn’t as if I sat down and said, “I’m going to build the next Facebook or Twitter or anything else for that matter.” It was more of me trying to make artwork using Javascript, trying to redraw my favorite fairy tale and animated characters, and when I was older, fiddling with the HTML/CSS of Tumblr to try to make my site even cooler, and this perception that coding wasn’t just an isolated subject, but rather a means of doing pretty much anything, really got me hooked.
 
@@ -51,6 +51,6 @@ My best advice: Don’t be afraid! If you have an idea but don’t know too much
 
 * * *
 
-[![](/images/general/image-asset.jpeg?format=original)](http://teenstransformingtechnology.weebly.com/)
+[![](/images/general/image-asset-1459708331097-TAH23Y7VVEUSIVP80BPS.jpeg?format=original)](http://teenstransformingtechnology.weebly.com/)
 
 > [Teens Transforming Technology](http://teenstransformingtechnology.weebly.com/) is a student-run nonprofit organization based in Northern Virginia, and we aim to inspire the next generation of tech entrepreneurs. TTT's programs, workshops, and events focus on teaching technology and programming skills while also exposing students to the business-related aspects of a technology corporation and product development. By expanding their chapters through youth activists across the nation, they hope to be able to reach out to previously underserved populations in order to encourage diversity in technology.

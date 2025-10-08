@@ -11,7 +11,7 @@ author: "Unknown"
 
 * * *
 
-![](/images/general/kristina_hagman.jpg?format=original)
+![](/images/general/kristina_hagman-1491834218530-AR84BM2PPW9UYF479338.jpg?format=original)
 
 ### Tell us about your background & how it led you to where you are today.
 
@@ -21,7 +21,7 @@ _spark_ is composed of a small group of art lovers who want to see more art arou
 
 * * *
 
-![](/images/general/image-asset.jpeg?format=original) ![](/images/general/peek11.jpg?format=original)
+![](/images/general/image-asset-1491834304662-25CD1O993ICWL49KRH36.jpeg?format=original) ![](/images/general/peek11.jpg?format=original)
 
 ### How does your work combine art and other disciplines?
 
@@ -31,7 +31,7 @@ In the past, we’ve put on shows and events all over campus. Tape installation,
 
 * * *
 
-![](/images/general/image-asset.jpeg?format=original)
+![](/images/general/image-asset-1491834412312-Y4U49D975QE2TW5477OF.jpeg?format=original)
 
 ### What does being a gique mean to you?
 

@@ -11,7 +11,7 @@ author: "Unknown"
 
 * * *
 
-![](/images/general/image-asset.jpeg?format=original)
+![](/images/general/image-asset-1461795711171-5ZD9ZPF739MOXOPC91MZ.jpeg?format=original)
 
 ### Tell us about your background & how it led you to where you are today.
 
@@ -29,7 +29,7 @@ And I'm still writing. Two friends and I have founded Wordplay, a weekly creativ
 
 * * *
 
-![](/images/general/image-asset.jpeg?format=original)
+![](/images/general/image-asset-1461795739537-GH8UJT3PLV8TOQVFXW0K.jpeg?format=original)
 
 ### What keeps you passionate about coding and writing?
 
@@ -55,10 +55,10 @@ Find projects to tackle. Nothing beats hands-on experience. Set a goal of creati
 
 And, finally, learning to code requires training yourself to think in new ways. It's like learning a language. Figuring out how to use a language's weird rules takes time and patience. My biggest piece of advice: Don't let yourself become intimidated. Don't succumb to imposter syndrome. Believe in yourself. Work hard. Blast off into space to find that broken satellite. You'll be amazed at what you can accomplish."
 
-![](/images/general/image-asset.jpeg?format=original)
+![](/images/general/image-asset-1461796110007-EG9YXUIXC4RTK1ZIU9S5.jpeg?format=original)
 
 * * *
 
-[![](/images/general/image-asset.png?format=original)](https://www.launchacademy.com)
+[![](/images/general/image-asset-1461794635830-W52QYDPIUB5JK6ZSM9RX.png?format=original)](https://www.launchacademy.com)
 
 > Based in Boston, Launch Academy’s bootcamp takes eager learners with little to no coding experience and gives them the tools to add value to a software engineering team. [Launch Academy](http://www.launchacademy.com) offers both an on-site, immersive program and an online, subscription-based program. Graduates have gone on to join companies like Fidelity, NPR, and HubSpot.

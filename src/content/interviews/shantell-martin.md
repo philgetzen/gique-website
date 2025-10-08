@@ -11,7 +11,7 @@ author: "Unknown"
 
 * * *
 
-![](/images/general/image-asset.jpeg?format=original)
+![](/images/general/image-asset-1452538409565-L61AS6B8TVIH8221LNFW.jpeg?format=original)
 
 ### Tell us about your background & how it led you to where you are today.
 
@@ -31,7 +31,7 @@ Moving to Japan and starting my career there"
 
 "For me work and play are pretty much the same thing. I’ve found that when I meet people with a gift/talent I find it very inspiring. I’ve always had an interest in technology from a young age. Life for me has lead me on a path where I’m obsessed with lines and drawings, I love to collaborate with people who are able to take these lines and drawings to new mediums and spaces."
 
-![](/images/general/image-asset.jpeg?format=original) ![](/images/general/image-asset.jpeg?format=original) ![](/images/general/image-asset.jpeg?format=original)
+![](/images/general/image-asset-1452547473472-DND3L22YMTJTFSHMDTFJ.jpeg?format=original) ![](/images/general/image-asset-1452547482242-YJNJ26KVGV0DJ2AJ9XVP.jpeg?format=original) ![](/images/general/image-asset-1452547453646-O1CU8GV4169WEHQMCC4K.jpeg?format=original)
 
 * * *
 
@@ -47,7 +47,7 @@ Moving to Japan and starting my career there"
 
 * * *
 
-[![](/images/general/image-asset.jpeg?format=original)](http://www.shantellmartin.com/)
+[![](/images/general/image-asset-1452538737856-U1EZF7LOSD9DWVG1SQ9F.jpeg?format=original)](http://www.shantellmartin.com/)
 
 > From London to Tokyo to New York, internationally acclaimed visual artist Shantell Martin is expanding conventional definitions of drawing and animation to transform visual experience in the design, fashion and music industries. Her dazzling light projections have been featured in iconic spots such as New York’s Museum of Modern Art, the megaclubs of Tokyo and Russia, and on the enormous screens at Shibuya and Harajuku crossings in Tokyo. Martin has quickly infiltrated popular culture stateside -- she’s been cast as herself on quintessential New York show Gossip Girl, interviewed on CNN, appeared on an NBC morning show, and deemed a muse of super-hip design blog, PSFK. In October 2011, she was interviewed in French Glamour as New York’s “coolest it girl.”  
 >   

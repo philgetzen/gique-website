@@ -11,7 +11,7 @@ author: "Unknown"
 
 * * *
 
-![](/images/general/image-asset.jpeg?format=original) ![](/images/general/image-asset.gif?format=original)
+![](/images/general/image-asset-1462548395020-OMOR1LWOSS4HSCKFSC9N.jpeg?format=original) ![](/images/general/image-asset-1462548465899-MESOVRLCRMNFL8727VOI.gif?format=original)
 
 ### Tell us about your background & how it led you to where you are today.
 
@@ -19,7 +19,7 @@ author: "Unknown"
 
 * * *
 
-![](/images/general/image-asset.jpeg?format=original)
+![](/images/general/image-asset-1462548424500-AN7G1W4BGENP4FNQUVC8.jpeg?format=original)
 
 ### What keeps you passionate about science and art?
 
@@ -41,6 +41,6 @@ author: "Unknown"
 
 * * *
 
-[![](/images/general/image-asset.jpeg?format=original)](http://thecomaps.com)
+[![](/images/general/image-asset-1462548279602-8FGK5CT7RS9SU0C5Y2LB.jpeg?format=original)](http://thecomaps.com)
 
 > EcoMaps provides Beautifully Handcrafted Wooden Map Art in the form of pre-designed and custom wooden maps and coasters. Check our their inventory here: [http://thecomaps.com](http://thecomaps.com)

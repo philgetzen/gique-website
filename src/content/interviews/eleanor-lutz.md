@@ -9,7 +9,7 @@ author: "Unknown"
 
 **Designer, Molecular Biologist, & Creator of [Tabletop Whale](http://www.tabletopwhale.com)**
 
-![](/images/general/image-asset.jpeg?format=original) [![](/images/general/eleanor_lutz.jpg?format=original)](http://tabletopwhale.com/)
+![](/images/general/image-asset-1439669729427-MTUV8G80JJP0J37A74P2.jpeg?format=original) [![](/images/general/eleanor_lutz.jpg?format=original)](http://tabletopwhale.com/)
 
 ### **What inspired you to create your science illustration blog, Tabletop Whale?**
 

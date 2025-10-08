@@ -13,7 +13,7 @@ SMFA ’18, Animator, Technology Enthusiast, and Creator of [The Scarab Experime
 
 ## Tell us about yourself.
 
-![](/images/general/image-asset.jpeg?format=original)
+![](/images/general/image-asset-1439666940191-LTVWCUXCMOXJA4YV543Z.jpeg?format=original)
 
 "I grew up in Connecticut and began loving animation from a young age. I was the kid at Disney World asking what kind of special paint was on the animation cels. No, to my surprise, it wasn’t mixed with pixie dust; it was just plain acrylic paint. After high school I immediately went to Film School in New York where I found myself wandering with the idea of what I wanted to do with my life. I thought if I gained a structured experience that it’d help me focus, so I ventured into the U.S Army for a time. I realized after a few years that I was meant for something else, so I left and began working in the Aerospace field for what I thought would be a short time. That short time quickly turned into nine years. It was a family company, started by my dad, granddad, and a few others, and so it was easy to get stuck with how comfortable the work was. However, over time my position wasn’t satisfying anymore and I began to thirst for creative work, so I made a change thanks to my wife. She saw I was unhappy and urged me to apply to schools. That’s when we came to Boston so that I could pursue my passion of animation at the School of the Museum of Fine Arts.
 
@@ -23,7 +23,7 @@ So, I guess you can say my background has kind of been all over the place, from 
 
 ## What inspired you to work on the Scarab Experiment?
 
-![](/images/general/image-asset.png?format=original) ![](/images/general/image-asset.png?format=original)
+![](/images/general/image-asset-1439667164433-WM9IG7O7HEJ33QO0LTDD.png?format=original) ![](/images/general/image-asset-1439667144630-NES5K6DD7PCR7EH1R6QM.png?format=original)
 
 "My most recent project involves art, technology and community. It’s called The Scarab Experiment [http://TheScarabExperiment.org/](http://thescarabexperiment.org/) and it’s the world's first decentralized artist personae powered by Counterparty.io and backed by Bitcoin. What this means is that Scarab is an artist like Picasso, Warhol, or Davinci but whose works are created by other artist' and curated by the community. The project runs off of a Token that was created in Counterparty, which is a financial platform made from the underlying technology of Bitcoin called the blockchain. Basically, the community, which is everyone that acquires a Scarab Token,  shares in the value of the Scarab Token because the more money that the Scarab personae brings in, then the more value that goes into each Scarab Token via the Scarab Community Wallet. It’s kind of like a shared success or failure, depending on how the experiment goes. In the future I can see more digital personae being created where each individual is part of a team working toward their personae’s success. The interesting thing is that it doesn’t have to be imaginary like Scarab. In a few years time you might see athletes, musicians, and artists distributing their self value via decentralized cryptocurrencies. They’d do this in order to receive initial funding and make their success part of a group effort, which hopefully would increase the likelihood of success. It promotes a sharing, “We’re all in this together” attitude.
 

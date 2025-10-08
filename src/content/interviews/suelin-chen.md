@@ -11,7 +11,7 @@ author: "Unknown"
 
 * * *
 
-![](/images/general/image-asset.jpeg?format=original)
+![](/images/general/image-asset-1448312880124-RBQLGRH2STYVS910FEJI.jpeg?format=original)
 
 ### Tell us about yourself.
 
@@ -49,6 +49,6 @@ I have learned over the years that you have to stay humble, but you also have to
 
 * * *
 
-[![](/images/general/image-asset.jpeg?format=original)](http://joincake.com)
+[![](/images/general/image-asset-1448313366342-FTQY1AWE6QKR1ZZ0S6WV.jpeg?format=original)](http://joincake.com)
 
 ## [CAKE](http://joincake.com) is a company that repositions death in our lives and our society by making it easier to think about.  Their first-in-class, mobile-friendly web app helps users discover their end-of-life preferences, and store and share those preferences securely in the cloud. In addition to the app, CAKE offers personalized concierge services with end-of-life planning experts.
